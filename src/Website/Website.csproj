@@ -181,6 +181,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\PublishProfiles\Local wwwroot.pubxml" />
+    <Content Include="Views\Shared\Menu.cshtml" />
+    <Content Include="Views\Shared\TopBar.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
