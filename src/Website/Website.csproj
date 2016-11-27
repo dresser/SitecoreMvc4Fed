@@ -173,13 +173,12 @@
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Config\Include\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Views\Shared\_StandardLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Sites.config" />
     <None Include="Properties\PublishProfiles\Local wwwroot.pubxml" />
     <Content Include="Views\Shared\Menu.cshtml" />
     <Content Include="Views\Shared\TopBar.cshtml" />

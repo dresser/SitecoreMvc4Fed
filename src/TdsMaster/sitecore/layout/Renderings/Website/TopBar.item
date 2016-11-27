@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {398F4400-FC96-4436-BBE7-D23E48B5261D}
+database: master
+path: /sitecore/layout/Renderings/Website/TopBar
+parent: {06BB7283-BE4E-42AF-8F6A-6A20B36014F0}
+name: TopBar
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+created: 20161110T234734:636144184543430000
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 27
+
+/Views/Shared/TopBar.cshtml
+----field----
+field: {F4069D71-74D7-4422-941D-54B517CF3001}
+name: Placeholder
+key: placeholder
+content-length: 6
+
+TopBar
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+-
+----version----
+language: en
+version: 1
+revision: a516baed-eb58-4f00-9e43-42af8337685c
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161110T234734Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a516baed-eb58-4f00-9e43-42af8337685c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20161116T002320Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

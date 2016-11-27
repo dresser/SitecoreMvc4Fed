@@ -1,7 +1,15 @@
-﻿@model Sitecore.Mvc.Presentation.RenderingModel
+﻿@using Sitecore.Data.Items
+@model Sitecore.Mvc.Presentation.RenderingModel
 <ul class="menu">
-    <li><a href="#">Three</a></li>
-    <li><a href="#">Four</a></li>
-    <li><a href="#">Five</a></li>
-    <li><a href="#">Six</a></li>
+    @foreach (var menuItem in (IEnumerable <Item>)Model.Item.Children)
+    {
+        if (menuItem.Template.Name == "TextItem")
+        {
+            <li class="menu-text">@Html.Sitecore().Field("Text", menuItem)</li>
+        }
+        else if (menuItem.Template.Name == "LinkItem")
+        {
+            <li>@Html.Sitecore().Field("Link", menuItem)</li>
+        }
+    }
 </ul>

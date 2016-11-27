@@ -1,19 +1,26 @@
 ----item----
 version: 1
-id: {5D16B629-BEA8-4127-B893-600E75FCBCC3}
+id: {B97B93E8-DB34-46B9-A446-0A6BD3CFD34C}
 database: master
-path: /sitecore/content/Home
-parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
-name: Home
+path: /sitecore/content/Mvc4Fed/Settings
+parent: {2000FAD3-93F9-478C-9CA0-C09520A8F576}
+name: Settings
 master: {00000000-0000-0000-0000-000000000000}
-template: {7495BFBB-160F-4F43-84B7-C72B78B83338}
-templatekey: HomePage
-created: 20161023T215449:636128564891630000
+template: {F5954DEE-5E5F-4D3C-9A43-FA28520E327E}
+templatekey: SettingsFolder
+created: 20161127T112933:636158429730630000
 
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
 ----version----
 language: en
 version: 1
-revision: a9d7f472-e7a4-4910-94fa-7b0bb76dd614
+revision: 1af86d0c-1416-412a-8e8e-a50b44e3e6bc
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -21,21 +28,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20161023T215449Z
+20161127T112933Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-a9d7f472-e7a4-4910-94fa-7b0bb76dd614
+1af86d0c-1416-412a-8e8e-a50b44e3e6bc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161023T223652Z
+20161127T112952Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

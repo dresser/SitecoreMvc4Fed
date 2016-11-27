@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {3A39E4C2-D4C5-4ABD-B9AC-95F7C8614EEE}
+database: master
+path: /sitecore/content/Mvc4Fed/Settings/Menus/TopRight
+parent: {9F0B0FF8-383E-4A87-9743-1A69857BCBF8}
+name: TopRight
+master: {6DF059BA-911C-45F1-BFDF-8565BB0C6DE0}
+template: {D1395FB1-83E3-417F-A659-020E4FF1127E}
+templatekey: Menu
+created: 20161127T120912:636158453520430000
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{2E997845-E77F-43DB-A31C-E5EF732FEC28}
+----version----
+language: en
+version: 1
+revision: 7c1d825d-c0f3-4842-afad-8c2ae3b39a05
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161127T120912Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7c1d825d-c0f3-4842-afad-8c2ae3b39a05
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20161127T120912Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
