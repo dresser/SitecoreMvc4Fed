@@ -180,8 +180,9 @@
   <ItemGroup>
     <Content Include="App_Config\Include\Sites.config" />
     <None Include="Properties\PublishProfiles\Local wwwroot.pubxml" />
-    <Content Include="Views\Shared\Menu.cshtml" />
-    <Content Include="Views\Shared\TopBar.cshtml" />
+    <Content Include="Views\Menu\Menu.cshtml" />
+    <Content Include="Views\TopBar\TopBar.cshtml" />
+    <Content Include="Views\Carousel\Carousel.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

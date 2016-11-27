@@ -1,22 +1,22 @@
 ----item----
 version: 1
-id: {11A66AC3-12D7-494D-A87C-C62032F1C873}
+id: {2ECE30C4-1E61-4EA0-8744-924923000EE7}
 database: master
-path: /sitecore/layout/Renderings/Website/Menu
+path: /sitecore/layout/Renderings/Website/Carousel
 parent: {06BB7283-BE4E-42AF-8F6A-6A20B36014F0}
-name: Menu
+name: Carousel
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
-created: 20161116T002546:636148527468930000
+created: 20161127T122411:636158462515700000
 
 ----field----
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 23
+content-length: 31
 
-/Views/Menu/Menu.cshtml
+/Views/Carousel/Carousel.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
@@ -28,20 +28,20 @@ content-length: 1
 field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
 name: Datasource Template
 key: datasource template
-content-length: 48
+content-length: 56
 
-/sitecore/templates/Website/Components/Menu/Menu
+/sitecore/templates/Website/Components/Carousel/Carousel
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 30
+content-length: 29
 
-Office/16x16/elements_tree.png
+Office/16x16/window_width.png
 ----version----
 language: en
 version: 1
-revision: 1246e7b2-556a-420a-8e07-05a98d2f227d
+revision: 86561e9a-1765-4a5a-ada4-4bcc55e7ceab
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -49,21 +49,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20161116T002546Z
+20161127T122411Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-1246e7b2-556a-420a-8e07-05a98d2f227d
+86561e9a-1765-4a5a-ada4-4bcc55e7ceab
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161127T122527Z
+20161127T195240Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

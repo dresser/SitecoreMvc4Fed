@@ -14,19 +14,20 @@ created: 20161023T214914:636128561548570000
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 544
+content-length: 702
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4CC50A99-61E5-4140-B7A7-A14B0BCBC20C}">
     <r id="{398F4400-FC96-4436-BBE7-D23E48B5261D}" ph="TopBar" uid="{41FD70E0-123B-4FC8-8AB1-9CB2B7177586}" />
     <r ds="{1513ACDF-8937-4C58-A492-86BF16A41DBD}" id="{11A66AC3-12D7-494D-A87C-C62032F1C873}" ph="TopBarLeft" uid="{1ADFC1A9-9961-4558-B39D-04F90223F889}" />
     <r ds="{3A39E4C2-D4C5-4ABD-B9AC-95F7C8614EEE}" id="{11A66AC3-12D7-494D-A87C-C62032F1C873}" ph="TopBarRight" uid="{2B6C1F16-D74F-426F-9BDA-544AEC5011D0}" />
+    <r ds="{7E029A74-CD2F-444F-A8E5-FC7E9001461E}" id="{2ECE30C4-1E61-4EA0-8744-924923000EE7}" ph="Carousel" uid="{9292CC2F-06C6-4DAF-8564-4CE170676C5E}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 95f9227d-69d0-47ae-80b9-3210471971b3
+revision: cb76cc9b-72bb-41c3-a85b-689e32c5184e
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -55,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-95f9227d-69d0-47ae-80b9-3210471971b3
+cb76cc9b-72bb-41c3-a85b-689e32c5184e
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161127T121058Z
+20161127T212104Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

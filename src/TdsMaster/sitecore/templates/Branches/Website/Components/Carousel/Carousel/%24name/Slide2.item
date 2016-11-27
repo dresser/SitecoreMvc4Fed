@@ -1,27 +1,27 @@
 ----item----
 version: 1
-id: {EA2F2F09-1D07-4C7C-B434-2F21DC779844}
+id: {4C35843A-F305-41A8-8A0D-C59A544B5553}
 database: master
-path: /sitecore/templates/Website/Components/Components/ComponentsFolder/__Standard Values
-parent: {E73B34AA-6DA4-435E-89E3-B6B6CD02787A}
-name: __Standard Values
+path: /sitecore/templates/Branches/Website/Components/Carousel/Carousel/$name/Slide2
+parent: {6403ABBA-43D7-4FA0-9A28-DE30A780BE7E}
+name: Slide2
 master: {00000000-0000-0000-0000-000000000000}
-template: {E73B34AA-6DA4-435E-89E3-B6B6CD02787A}
-templatekey: ComponentsFolder
-created: 20161127T112547:636158427476470000
+template: {A2ABFD6B-5708-4C83-9068-C21912004226}
+templatekey: CarouselSlide
+created: 20161127T195825:636158735057230000
 
-----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 38
-
-{9B66FFBE-38F2-4FB1-92EB-048BC44D1507}
 ----version----
 language: en
 version: 1
-revision: 56e70e93-b843-43fb-b545-89537b785232
+revision: 35630a89-ae93-4f51-a61b-712d26594cdb
 
+----field----
+field: {5E425271-310E-4F9A-97FE-52CBEF586EC3}
+name: Image
+key: image
+content-length: 162
+
+<image mediapath="" alt="fwip32" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{24278820-E714-4E20-9084-0ADB011002B5}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -35,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20161127T112547Z
+20161127T195825Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-56e70e93-b843-43fb-b545-89537b785232
+35630a89-ae93-4f51-a61b-712d26594cdb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161127T200044Z
+20161127T211756Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
