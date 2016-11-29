@@ -162,9 +162,12 @@
     <Content Include="css\app.css" />
     <Content Include="css\foundation.css" />
     <Content Include="css\foundation.min.css" />
+    <Content Include="css\foundation.min.downloaded.css" />
     <Content Include="js\app.js" />
+    <Content Include="js\vendor\foundation.downloaded.js" />
     <Content Include="js\vendor\foundation.js" />
     <Content Include="js\vendor\foundation.min.js" />
+    <Content Include="js\vendor\jquery-2.1.4.min.downloaded.js" />
     <Content Include="js\vendor\jquery.js" />
     <Content Include="js\vendor\what-input.js" />
     <Content Include="packages.config" />
