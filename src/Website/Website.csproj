@@ -186,6 +186,7 @@
     <Content Include="Views\Menu\Menu.cshtml" />
     <Content Include="Views\TopBar\TopBar.cshtml" />
     <Content Include="Views\Carousel\Carousel.cshtml" />
+    <Content Include="Views\Header\Header.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,26 +1,26 @@
 ----item----
 version: 1
-id: {06BB7283-BE4E-42AF-8F6A-6A20B36014F0}
+id: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
 database: master
-path: /sitecore/layout/Renderings/Website
-parent: {32566F0E-7686-45F1-A12F-D7260BD78BC3}
-name: Website
+path: /sitecore/templates/Website/Components/Header/Header/Header/HeaderText
+parent: {AC96CDBA-CCDA-40BF-ADA6-440CAB9D2593}
+name: HeaderText
 master: {00000000-0000-0000-0000-000000000000}
-template: {7EE0975B-0698-493E-B3A2-0B2EF33D0522}
-templatekey: Rendering Folder
-created: 20161110T232409:636144170493430000
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+created: 20161129T234036:636160596369130000
 
 ----field----
-field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
-name: __Icon
-key: __icon
-content-length: 29
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 16
 
-Applications/16x16/folder.png
+Single-Line Text
 ----version----
 language: en
 version: 1
-revision: e631a4d6-acbb-4f00-8730-dfadc4b8dc5e
+revision: 792e1fe2-0b0c-4da9-8d8b-7433d57bce72
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -28,21 +28,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20161110T232409Z
+20161129T234036Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-e631a4d6-acbb-4f00-8730-dfadc4b8dc5e
+792e1fe2-0b0c-4da9-8d8b-7433d57bce72
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161129T234251Z
+20161129T234036Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
