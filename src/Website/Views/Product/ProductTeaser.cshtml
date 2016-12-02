@@ -1,0 +1,7 @@
+﻿@model Sitecore.Data.Items.Item
+<div class="column">
+    @Html.Sitecore().Field("MainImage", Model, new { @class="thumbnail", w=300, h=400, @as=1, bc="white" })
+    <h5>@Html.Sitecore().Field("Name", Model)</h5>
+    <p>$@Html.Sitecore().Field("Price", Model)</p>
+    <a href="@Sitecore.Links.LinkManager.GetItemUrl(Model)" class="button expanded">Buy</a>
+</div>
