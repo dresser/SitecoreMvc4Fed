@@ -1,27 +1,27 @@
 ----item----
 version: 1
-id: {4A22B839-577F-41C7-8605-B0F61D3C9420}
+id: {2EBB5D08-1EC6-4073-AA70-E039E4630CA2}
 database: master
-path: /sitecore/content/Mvc4Fed/Components/Headers/NewestProductsHeader
+path: /sitecore/content/Mvc4Fed/Components/Headers/NeatProducts
 parent: {3EEA56A2-F4D1-4723-B870-60E91F361F98}
-name: NewestProductsHeader
+name: NeatProducts
 master: {00000000-0000-0000-0000-000000000000}
 template: {1EC9017D-86B0-4265-A7BF-744E8B334E45}
 templatekey: Header
-created: 20161130T092646:636160948064630000
+created: 20161202T003427:636162356670300000
 
 ----version----
 language: en
 version: 1
-revision: 8c8248bc-5d5b-474c-8d55-40fa05c1f032
+revision: 56ff0870-992b-4964-b271-9366d5d81b8c
 
 ----field----
 field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
 name: HeaderText
 key: headertext
-content-length: 19
+content-length: 27
 
-Our Newest Products
+Some Other Neat Productssss
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -35,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20161130T092646Z
+20161202T003427Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8c8248bc-5d5b-474c-8d55-40fa05c1f032
+56ff0870-992b-4964-b271-9366d5d81b8c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161130T202746Z
+20161202T003452Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
