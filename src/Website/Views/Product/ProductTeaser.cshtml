@@ -1,7 +1,8 @@
-﻿@model Sitecore.Data.Items.Item
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
 <div class="column">
-    @Html.Sitecore().Field("MainImage", Model, new { @class="thumbnail", w=300, h=400, @as=1, bc="white" })
-    <h5>@Html.Sitecore().Field("Name", Model)</h5>
-    <p>$@Html.Sitecore().Field("Price", Model)</p>
-    <a href="@Sitecore.Links.LinkManager.GetItemUrl(Model)" class="button expanded">Buy</a>
+    @Html.Sitecore().Field("MainImage", new { @class="thumbnail", w=300, h=400, @as=1, bc="white" })
+    <h5>@Html.Sitecore().Field("Name")</h5>
+    <p>$@Html.Sitecore().Field("Price")</p>
+    <a href="@Sitecore.Links.LinkManager.GetItemUrl(Model.Item)" class="button @(Model.Rendering.Parameters["Expanded"] == "1" ? " expanded" : "") @(Model.Rendering.Parameters["Small"] == "1" ? " small" : "") @(Model.Rendering.Parameters["Hollow"] == "1" ? " hollow" : "")">Buy</a>
+    @*button small expanded hollow*@
 </div>

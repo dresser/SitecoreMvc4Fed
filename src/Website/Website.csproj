@@ -190,6 +190,7 @@
     <Content Include="Views\Product\NewestProducts.cshtml" />
     <Content Include="Views\Product\ProductTeaser.cshtml" />
     <Content Include="Views\Callout\Callout.cshtml" />
+    <Content Include="Views\Product\ProductList.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

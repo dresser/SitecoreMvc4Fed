@@ -1,22 +1,22 @@
 ----item----
 version: 1
-id: {61B8FEC6-F703-4F7A-B648-28CC6D5A0BE4}
+id: {E61BCE8B-81E6-447D-86E6-8362124C4B4A}
 database: master
-path: /sitecore/layout/Renderings/Website/ProductSelection
+path: /sitecore/layout/Renderings/Website/ProductList
 parent: {06BB7283-BE4E-42AF-8F6A-6A20B36014F0}
-name: ProductSelection
+name: ProductList
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
-created: 20161201T232052:636162312524570000
+created: 20161204T205405:636164816457630000
 
 ----field----
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 36
+content-length: 33
 
-/Views/Product/NewestProducts.cshtml
+/Views/Product/ProductList.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
@@ -25,23 +25,16 @@ content-length: 1
 
 -
 ----field----
-field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
-name: Datasource Template
-key: datasource template
-content-length: 63
-
-/sitecore/templates/Website/Components/Product/ProductSelection
-----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
 content-length: 26
 
-Office/16x16/elements4.png
+Office/16x16/elements3.png
 ----version----
 language: en
 version: 1
-revision: c72617c2-107e-4296-8bf2-821f0e646ca3
+revision: e04eb1e8-3608-4d67-acfc-20a054d9fb2f
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -49,21 +42,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20161201T232052Z
+20161204T205405Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-c72617c2-107e-4296-8bf2-821f0e646ca3
+e04eb1e8-3608-4d67-acfc-20a054d9fb2f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161201T232824Z
+20161204T205801Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
