@@ -1,0 +1,66 @@
+----item----
+version: 1
+id: {D4CD0467-BB2F-40A0-B51D-07384319B495}
+database: master
+path: /sitecore/content/Mvc4Fed/Home/Sensible Wigs/Big Hair Wig
+parent: {DB0ACBEC-4DEF-43B3-8034-FA984057FEA0}
+name: Big Hair Wig
+master: {00000000-0000-0000-0000-000000000000}
+template: {74C38A17-A2D2-42DC-8973-B66B7C19B88B}
+templatekey: ProductPage
+created: 20161205T214210:636165709303800000
+
+----version----
+language: en
+version: 1
+revision: c0945741-85c6-4aee-83a3-53ed0b3d7d40
+
+----field----
+field: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
+name: Name
+key: name
+content-length: 12
+
+Big Hair Wig
+----field----
+field: {1EAC3E17-7990-45FB-9B36-17BFD52FD636}
+name: Price
+key: price
+content-length: 2
+
+99
+----field----
+field: {0C5E0279-3C5F-4451-9341-713B1EA737F1}
+name: MainImage
+key: mainimage
+content-length: 229
+
+<image mediapath="/Website/wig-big-black-fuzzy-hair" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Website/wig-big-black-fuzzy-hair" mediaid="{72BDE5DC-21AB-43AB-B109-010D3A4147DF}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161205T214210Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c0945741-85c6-4aee-83a3-53ed0b3d7d40
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20161205T214809Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

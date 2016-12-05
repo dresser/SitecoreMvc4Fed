@@ -1,0 +1,21 @@
+﻿@using Sitecore.Data.Fields
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="medium-4 columns">
+    <h4>@Html.Sitecore().Field("Title")</h4>
+    @{
+        var field = new MultilistField(Model.Item.Fields["Products"]);
+        var productItems = field.GetItems();
+    }
+    @foreach (var product in productItems)
+    {
+        <div class="media-object">
+            <div class="media-object-section">
+                @Html.Sitecore().Field("MainImage", product, new { @class = "thumbnail", w = 100, h = 100, @as = 1, bc = "white" })
+            </div>
+            <div class="media-object-section">
+                <h5>@Html.Sitecore().Field("Name", product)</h5>
+                <p>@Html.Sitecore().Field("Description", product)</p>
+            </div>
+        </div>
+    }
+</div>

@@ -1,27 +1,34 @@
 ----item----
 version: 1
-id: {9541C348-6A96-47B7-A76D-3D4DF313646E}
+id: {86E7F1F8-D5FE-4C04-B0D8-2E20A0291E06}
 database: master
-path: /sitecore/templates/Website/Components/Product/ProductSelectionsFolder/__Standard Values
-parent: {3C5F652B-475D-4933-AA46-AF23B765F15C}
-name: __Standard Values
+path: /sitecore/content/Mvc4Fed/Components/ProductSelections/Popular Sensible Wigs
+parent: {3F8A6C98-27F3-4380-AF15-66F485081ACC}
+name: Popular Sensible Wigs
 master: {00000000-0000-0000-0000-000000000000}
-template: {3C5F652B-475D-4933-AA46-AF23B765F15C}
-templatekey: ProductSelectionsFolder
-created: 20161201T202430:636162206700130000
+template: {D78F5772-ABAD-41C4-9EEA-D9FF4CD4C6D6}
+templatekey: TopProducts
+created: 20161205T170217:636165541376500000
 
-----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 77
-
-{F5084162-11BB-4566-B5DB-ECD35F1476E2}|{D78F5772-ABAD-41C4-9EEA-D9FF4CD4C6D6}
 ----version----
 language: en
 version: 1
-revision: 347f1530-6584-4c4e-a858-5e108433af98
+revision: 28930cd7-bf84-4b42-afea-a7870a5d227c
 
+----field----
+field: {5149DDD9-8C38-47F9-AEDE-5ED968D3E757}
+name: Products
+key: products
+content-length: 116
+
+{7DD64A06-3BE3-4D49-BB72-A9D3E90D5A58}|{CCAF2AB4-DBA5-43ED-9E8A-98541CF22DEC}|{D4CD0467-BB2F-40A0-B51D-07384319B495}
+----field----
+field: {79F0209E-B3C1-471E-BB83-F1E558592BB1}
+name: Title
+key: title
+content-length: 13
+
+Sensible Wigs
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -35,7 +42,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20161201T202430Z
+20161205T164109Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-347f1530-6584-4c4e-a858-5e108433af98
+28930cd7-bf84-4b42-afea-a7870a5d227c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161205T163937Z
+20161205T215925Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

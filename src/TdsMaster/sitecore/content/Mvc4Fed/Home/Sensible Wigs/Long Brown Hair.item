@@ -1,76 +1,62 @@
 ----item----
 version: 1
-id: {1CF8F894-BFC6-44FD-8C6A-0BC544354E60}
+id: {7DD64A06-3BE3-4D49-BB72-A9D3E90D5A58}
 database: master
-path: /sitecore/content/Mvc4Fed/Home/Wigs/Comb Over Wig
-parent: {DA27B64D-89BC-4CDA-B2C3-A1B668F7C7AD}
-name: Comb Over Wig
+path: /sitecore/content/Mvc4Fed/Home/Sensible Wigs/Long Brown Hair
+parent: {DB0ACBEC-4DEF-43B3-8034-FA984057FEA0}
+name: Long Brown Hair
 master: {00000000-0000-0000-0000-000000000000}
 template: {74C38A17-A2D2-42DC-8973-B66B7C19B88B}
 templatekey: ProductPage
-created: 20161204T210338:636164822181800000
+created: 20161205T213745:636165706651730000
 
 ----version----
 language: en
 version: 1
-revision: 63c4a4b3-7071-498c-8fcd-1588fcf80922
+revision: dcef782f-6edc-4b7d-b02f-884fd3f37ba0
 
 ----field----
 field: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
 name: Name
 key: name
-content-length: 13
+content-length: 15
 
-Comb Over Wig
+Long Brown Hair
 ----field----
 field: {1EAC3E17-7990-45FB-9B36-17BFD52FD636}
 name: Price
 key: price
-content-length: 5
+content-length: 4
 
-12.99
+9.99
 ----field----
 field: {0C5E0279-3C5F-4451-9341-713B1EA737F1}
 name: MainImage
 key: mainimage
-content-length: 169
+content-length: 219
 
-<image mediapath="" alt="comb-over-wig" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{8B180671-ACE2-462A-8B80-8F696434D6E0}" />
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
+<image mediapath="/Website/wig-long-brown-hair" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Website/wig-long-brown-hair" mediaid="{8A1B0D63-58EB-4D7E-8CC2-35A782BA7FEB}" />
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20161204T210338Z
-----field----
-field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
-name: __Created by
-key: __created by
-content-length: 14
-
-sitecore\admin
+20161205T213745Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-63c4a4b3-7071-498c-8fcd-1588fcf80922
+dcef782f-6edc-4b7d-b02f-884fd3f37ba0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161204T210357Z
+20161205T213820Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -2,7 +2,7 @@
 version: 1
 id: {68D4FFF0-F1F2-4517-93E5-7689E24A042A}
 database: master
-path: /sitecore/templates/Website/RenderingParameters/ProductTeaserParameters/Style/Hollow
+path: /sitecore/templates/Website/RenderingParameters/ButtonParameters/Button Parameters/Hollow
 parent: {50B06924-C8B3-4438-8574-B0C6CAC4A73A}
 name: Hollow
 master: {00000000-0000-0000-0000-000000000000}
@@ -27,7 +27,7 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: 476fbd17-66b5-43e1-87fc-1fb562ef1bb8
+revision: 309d11b7-6933-47dd-8b1a-47ca6d5d41bc
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,14 +42,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-476fbd17-66b5-43e1-87fc-1fb562ef1bb8
+309d11b7-6933-47dd-8b1a-47ca6d5d41bc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161204T221738Z
+20161205T152552Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

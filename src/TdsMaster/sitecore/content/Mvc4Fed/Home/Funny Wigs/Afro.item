@@ -2,7 +2,7 @@
 version: 1
 id: {749105EF-5BFA-4DDE-B266-0DC2A8CE71EB}
 database: master
-path: /sitecore/content/Mvc4Fed/Home/Wigs/Afro
+path: /sitecore/content/Mvc4Fed/Home/Funny Wigs/Afro
 parent: {DA27B64D-89BC-4CDA-B2C3-A1B668F7C7AD}
 name: Afro
 master: {00000000-0000-0000-0000-000000000000}

@@ -1,76 +1,62 @@
 ----item----
 version: 1
-id: {792D2F98-A062-4090-AC37-9825F0ED3600}
+id: {F5522292-0874-4475-8005-B8590813574A}
 database: master
-path: /sitecore/content/Mvc4Fed/Home/Wigs/Trump
-parent: {DA27B64D-89BC-4CDA-B2C3-A1B668F7C7AD}
-name: Trump
+path: /sitecore/content/Mvc4Fed/Home/Coloured Wigs/Red Wig
+parent: {3B659B8F-0681-4678-8A22-D26E42E5CD57}
+name: Red Wig
 master: {00000000-0000-0000-0000-000000000000}
 template: {74C38A17-A2D2-42DC-8973-B66B7C19B88B}
 templatekey: ProductPage
-created: 20161201T230156:636162301168900000
+created: 20161205T215419:636165716591430000
 
 ----version----
 language: en
 version: 1
-revision: 26f8ca1f-9ef5-4ab8-83eb-389a1bee2dee
+revision: 44b99f77-1e94-4b49-9cbc-ffbf9d30d288
 
 ----field----
 field: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
 name: Name
 key: name
-content-length: 5
+content-length: 7
 
-Trump
+Red Wig
 ----field----
 field: {1EAC3E17-7990-45FB-9B36-17BFD52FD636}
 name: Price
 key: price
-content-length: 4
+content-length: 5
 
-12.5
+21.99
 ----field----
 field: {0C5E0279-3C5F-4451-9341-713B1EA737F1}
 name: MainImage
 key: mainimage
-content-length: 165
+content-length: 190
 
-<image mediapath="" alt="trump-wig" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{C045EA5E-C448-4D95-9621-E86F69BB8F82}" />
-----field----
-field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
-name: __Owner
-key: __owner
-content-length: 14
-
-sitecore\admin
+<image mediapath="" alt="smiffys-babe-wig-fuschia-short-bob" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{C10D5CF9-066F-4B37-95E2-6053C525D440}" />
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20161201T230156Z
-----field----
-field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
-name: __Created by
-key: __created by
-content-length: 14
-
-sitecore\admin
+20161205T215419Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-26f8ca1f-9ef5-4ab8-83eb-389a1bee2dee
+44b99f77-1e94-4b49-9cbc-ffbf9d30d288
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161201T231643Z
+20161205T215703Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
