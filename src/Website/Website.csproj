@@ -193,6 +193,7 @@
     <Content Include="Views\Product\ProductList.cshtml" />
     <Content Include="Views\Product\TopProducts.cshtml" />
     <Content Include="Views\Structures\Row.cshtml" />
+    <Content Include="Views\Footer\Footer.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
