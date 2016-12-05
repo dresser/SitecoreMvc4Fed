@@ -186,7 +186,7 @@
     <Content Include="Views\Menu\Menu.cshtml" />
     <Content Include="Views\TopBar\TopBar.cshtml" />
     <Content Include="Views\Carousel\Carousel.cshtml" />
-    <Content Include="Views\Header\Header.cshtml" />
+    <Content Include="Views\ContentHeader\ContentHeader.cshtml" />
     <Content Include="Views\Product\NewestProducts.cshtml" />
     <Content Include="Views\Product\ProductTeaser.cshtml" />
     <Content Include="Views\Callout\Callout.cshtml" />

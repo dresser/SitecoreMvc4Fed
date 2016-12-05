@@ -2,9 +2,9 @@
 version: 1
 id: {6F5DA58B-0CD4-4AB0-80B8-423936E4602E}
 database: master
-path: /sitecore/layout/Renderings/Website/Header
+path: /sitecore/layout/Renderings/Website/ContentHeader
 parent: {06BB7283-BE4E-42AF-8F6A-6A20B36014F0}
-name: Header
+name: ContentHeader
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
@@ -14,9 +14,9 @@ created: 20161129T234312:636160597921500000
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 27
+content-length: 41
 
-/Views/Header/Header.cshtml
+/Views/ContentHeader/ContentHeader.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
@@ -41,7 +41,7 @@ Office/16x16/text_field.png
 ----version----
 language: en
 version: 1
-revision: 8fe2057a-cd12-42d0-9d3a-5081f1d5ad01
+revision: 9ae844d1-9590-4764-ac87-51a801f844c0
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8fe2057a-cd12-42d0-9d3a-5081f1d5ad01
+9ae844d1-9590-4764-ac87-51a801f844c0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161205T152113Z
+20161205T235721Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
