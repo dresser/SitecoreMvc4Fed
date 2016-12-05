@@ -178,7 +178,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Views\Shared\_StandardLayout.cshtml" />
+    <Content Include="Views\Layouts\StandardLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Sites.config" />
