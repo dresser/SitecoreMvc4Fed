@@ -2,9 +2,9 @@
 version: 1
 id: {398F4400-FC96-4436-BBE7-D23E48B5261D}
 database: master
-path: /sitecore/layout/Renderings/Website/TopBar
+path: /sitecore/layout/Renderings/Website/Header
 parent: {06BB7283-BE4E-42AF-8F6A-6A20B36014F0}
-name: TopBar
+name: Header
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
@@ -16,7 +16,7 @@ name: Path
 key: path
 content-length: 27
 
-/Views/TopBar/TopBar.cshtml
+/Views/Header/Header.cshtml
 ----field----
 field: {F4069D71-74D7-4422-941D-54B517CF3001}
 name: Placeholder
@@ -41,7 +41,7 @@ Office/16x16/document_header.png
 ----version----
 language: en
 version: 1
-revision: 0048a3e2-c96b-4d09-a287-8fdc5b9702f1
+revision: 762428fb-5e3d-486a-a721-96487858fdb5
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0048a3e2-c96b-4d09-a287-8fdc5b9702f1
+762428fb-5e3d-486a-a721-96487858fdb5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161205T150252Z
+20161206T000016Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
