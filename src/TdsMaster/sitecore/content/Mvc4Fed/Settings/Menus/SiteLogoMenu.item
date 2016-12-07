@@ -2,9 +2,9 @@
 version: 1
 id: {1513ACDF-8937-4C58-A492-86BF16A41DBD}
 database: master
-path: /sitecore/content/Mvc4Fed/Settings/Menus/TopLeft
+path: /sitecore/content/Mvc4Fed/Settings/Menus/SiteLogoMenu
 parent: {9F0B0FF8-383E-4A87-9743-1A69857BCBF8}
-name: TopLeft
+name: SiteLogoMenu
 master: {6DF059BA-911C-45F1-BFDF-8565BB0C6DE0}
 template: {D1395FB1-83E3-417F-A659-020E4FF1127E}
 templatekey: Menu
@@ -20,7 +20,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: ce57ab76-8d44-4d78-9564-69ad311ca8c2
+revision: d2e29813-1416-413e-9eb3-a981a4f2dfa0
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -35,14 +35,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ce57ab76-8d44-4d78-9564-69ad311ca8c2
+d2e29813-1416-413e-9eb3-a981a4f2dfa0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161127T113120Z
+20161207T162338Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

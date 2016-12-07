@@ -1,9 +1,23 @@
 ﻿@model Sitecore.Mvc.Presentation.RenderingModel
 <div class="top-bar">
+    @{ 
+        var db = Model.Item.Database;
+        var query = @"fast:/ancestor::*[@@templatename='Website']//*[@@templatename='SettingsFolder']//*[@@templatename='Header']";
+        var siteLogoMenuItemId = "";
+        var secondaryMenuItemId = "";
+        var headerItem = db.SelectSingleItem(query);
+        if (headerItem != null)
+        {
+            var siteLogoMenuItem = db.GetItem(headerItem["LogoMenu"]);
+            siteLogoMenuItemId = siteLogoMenuItem != null ? siteLogoMenuItem.ID.ToString() : "";
+            var secondaryMenuItem = db.GetItem(headerItem["SecondaryMenu"]);
+            secondaryMenuItemId = secondaryMenuItem != null ? secondaryMenuItem.ID.ToString() : "";
+        }
+    }
     <div class="top-bar-left">
-        @Html.Sitecore().Placeholder("TopBarLeft")
+        @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = siteLogoMenuItemId, Parameters = "Vertical=0" })
     </div>
     <div class="top-bar-right">
-        @Html.Sitecore().Placeholder("TopBarRight")
+        @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = secondaryMenuItemId, Parameters = "Vertical=0" })
     </div>
 </div>
