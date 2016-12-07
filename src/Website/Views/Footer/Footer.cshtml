@@ -6,20 +6,10 @@
             <p>@Html.Sitecore().Field("Description")</p>
         </div>
         <div class="large-3 large-offset-2 columns">
-            <ul class="menu vertical">
-                <li><a href="#">One</a></li>
-                <li><a href="#">Two</a></li>
-                <li><a href="#">Three</a></li>
-                <li><a href="#">Four</a></li>
-            </ul>
+            @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = "{4C84EAC7-5ECC-47C1-AB21-A9890589D5D2}", Parameters = "Vertical=1" })
         </div>
         <div class="large-3 columns">
-            <ul class="menu vertical">
-                <li><a href="#">One</a></li>
-                <li><a href="#">Two</a></li>
-                <li><a href="#">Three</a></li>
-                <li><a href="#">Four</a></li>
-            </ul>
+            @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = "{F29C502C-2EB3-46E0-86C5-6507C0873677}", Parameters = "Vertical=1" })
         </div>
     </div>
 </div>

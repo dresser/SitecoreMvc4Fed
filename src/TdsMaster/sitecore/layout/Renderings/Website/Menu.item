@@ -18,6 +18,13 @@ content-length: 23
 
 /Views/Menu/Menu.cshtml
 ----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{CB8E0439-0952-45A0-86D2-C942E088BD6F}
+----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
@@ -41,7 +48,7 @@ Office/16x16/elements_tree.png
 ----version----
 language: en
 version: 1
-revision: 1246e7b2-556a-420a-8e07-05a98d2f227d
+revision: 5dd93573-6de5-407d-a8b6-4bb71c2bd4db
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1246e7b2-556a-420a-8e07-05a98d2f227d
+5dd93573-6de5-407d-a8b6-4bb71c2bd4db
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161127T122527Z
+20161207T112958Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

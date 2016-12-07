@@ -1,40 +1,40 @@
 ----item----
 version: 1
-id: {CB8E0439-0952-45A0-86D2-C942E088BD6F}
+id: {D9500861-DE54-4917-9D92-15D8E55F4DBE}
 database: master
-path: /sitecore/templates/Website/RenderingParameters/MenuParameters
-parent: {D5E578DC-DB1D-43A6-8E15-7280D6A91969}
-name: MenuParameters
+path: /sitecore/templates/Website/PageTypes/FreeTextPage
+parent: {AAB5A2E5-1C2B-4D20-85FF-41EAC18F4C60}
+name: FreeTextPage
 master: {00000000-0000-0000-0000-000000000000}
 template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
-created: 20161205T235007:636165786076470000
+created: 20161207T121720:636167098403370000
 
 ----field----
 field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
 name: __Base template
 key: __base template
-content-length: 77
+content-length: 38
 
-{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{8CA06D6A-B353-44E8-BC31-B528C7306971}
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}
 ----field----
 field: {F7D48A55-2158-4F02-9356-756654404F73}
 name: __Standard values
 key: __standard values
 content-length: 38
 
-{4D3C1CB8-5DE4-47AD-BEA6-C56065B77B0B}
+{04230982-7501-4D2A-8232-681E75601B11}
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 32
+content-length: 21
 
-Applications/32x32/form_blue.png
+Office/16x16/text.png
 ----version----
 language: en
 version: 1
-revision: 49b789f2-40f6-4088-9c2f-aa604833d67f
+revision: c2ce694d-d2b0-461c-bb56-8e2b646cb92d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,7 +42,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20161205T235007Z
+20161207T121720Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-49b789f2-40f6-4088-9c2f-aa604833d67f
+c2ce694d-d2b0-461c-bb56-8e2b646cb92d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161207T123249Z
+20161207T121807Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin
