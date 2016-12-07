@@ -2,18 +2,18 @@
 version: 1
 id: {3EEA56A2-F4D1-4723-B870-60E91F361F98}
 database: master
-path: /sitecore/content/Mvc4Fed/Components/Headers
+path: /sitecore/content/Mvc4Fed/Components/ContentHeaders
 parent: {B7D9E680-1545-47E7-A338-58E5128100A3}
-name: Headers
+name: ContentHeaders
 master: {00000000-0000-0000-0000-000000000000}
 template: {4F53E8DD-8C50-4F91-8894-55FA98B6D095}
-templatekey: HeadersFolder
+templatekey: ContentHeadersFolder
 created: 20161129T234954:636160601946900000
 
 ----version----
 language: en
 version: 1
-revision: c9f1a812-32a5-4873-917c-fbf024112f3e
+revision: 74cf97ef-99fe-4952-9f6c-99ea152d44c4
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -28,14 +28,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c9f1a812-32a5-4873-917c-fbf024112f3e
+74cf97ef-99fe-4952-9f6c-99ea152d44c4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161129T234954Z
+20161207T124604Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -2,7 +2,7 @@
 version: 1
 id: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
 database: master
-path: /sitecore/templates/Website/Components/Header/Header/Header/HeaderText
+path: /sitecore/templates/Website/Components/ContentHeader/ContentHeader/Header/HeaderText
 parent: {AC96CDBA-CCDA-40BF-ADA6-440CAB9D2593}
 name: HeaderText
 master: {00000000-0000-0000-0000-000000000000}

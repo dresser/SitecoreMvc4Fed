@@ -1,27 +1,27 @@
 ----item----
 version: 1
-id: {4A22B839-577F-41C7-8605-B0F61D3C9420}
+id: {7087194D-5180-41DF-8F68-D083AF756A53}
 database: master
-path: /sitecore/content/Mvc4Fed/Components/Headers/NewestProducts
-parent: {3EEA56A2-F4D1-4723-B870-60E91F361F98}
-name: NewestProducts
+path: /sitecore/templates/Website/Components/ContentHeader/ContentHeadersFolder/__Standard Values
+parent: {4F53E8DD-8C50-4F91-8894-55FA98B6D095}
+name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {1EC9017D-86B0-4265-A7BF-744E8B334E45}
-templatekey: Header
-created: 20161130T092646:636160948064630000
+template: {4F53E8DD-8C50-4F91-8894-55FA98B6D095}
+templatekey: ContentHeadersFolder
+created: 20161129T234715:636160600357970000
 
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{1EC9017D-86B0-4265-A7BF-744E8B334E45}
 ----version----
 language: en
 version: 1
-revision: 2ad81406-e129-4466-9b9a-f5eb7b4f806e
+revision: 513851e3-5649-460a-8b42-770c094cf73c
 
-----field----
-field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
-name: HeaderText
-key: headertext
-content-length: 19
-
-Our Newest Products
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -35,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20161130T092646Z
+20161129T234715Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2ad81406-e129-4466-9b9a-f5eb7b4f806e
+513851e3-5649-460a-8b42-770c094cf73c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161202T003444Z
+20161129T234746Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

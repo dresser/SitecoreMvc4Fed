@@ -1,19 +1,33 @@
 ----item----
 version: 1
-id: {25443C2C-C0FD-4CD4-9C67-1CA3B482BD84}
+id: {1EC9017D-86B0-4265-A7BF-744E8B334E45}
 database: master
-path: /sitecore/templates/Website/Components/Header
-parent: {7F4EDB8F-586E-4930-91DE-B4AA2D36439D}
-name: Header
+path: /sitecore/templates/Website/Components/ContentHeader/ContentHeader
+parent: {25443C2C-C0FD-4CD4-9C67-1CA3B482BD84}
+name: ContentHeader
 master: {00000000-0000-0000-0000-000000000000}
-template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
-templatekey: Template Folder
-created: 20161129T233957:636160595970130000
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+created: 20161129T234020:636160596202800000
 
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 38
+
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 27
+
+Office/16x16/text_field.png
 ----version----
 language: en
 version: 1
-revision: e31cd2d1-c192-43c0-8642-d5aa26b253fe
+revision: ee7a94c1-4294-47dd-8970-61df864c3032
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -21,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20161129T233957Z
+20161129T234020Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -35,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e31cd2d1-c192-43c0-8642-d5aa26b253fe
+ee7a94c1-4294-47dd-8970-61df864c3032
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161129T234004Z
+20161207T124527Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

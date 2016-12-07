@@ -28,9 +28,9 @@ content-length: 1
 field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
 name: Datasource Template
 key: datasource template
-content-length: 52
+content-length: 66
 
-/sitecore/templates/Website/Components/Header/Header
+/sitecore/templates/Website/Components/ContentHeader/ContentHeader
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -41,7 +41,7 @@ Office/16x16/text_field.png
 ----version----
 language: en
 version: 1
-revision: 9ae844d1-9590-4764-ac87-51a801f844c0
+revision: 74d7438a-5185-4cae-a119-5df4a67e6d9b
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9ae844d1-9590-4764-ac87-51a801f844c0
+74d7438a-5185-4cae-a119-5df4a67e6d9b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161205T235721Z
+20161207T124527Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

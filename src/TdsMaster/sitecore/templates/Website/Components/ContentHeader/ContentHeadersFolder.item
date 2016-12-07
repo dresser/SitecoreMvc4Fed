@@ -2,9 +2,9 @@
 version: 1
 id: {4F53E8DD-8C50-4F91-8894-55FA98B6D095}
 database: master
-path: /sitecore/templates/Website/Components/Header/HeadersFolder
+path: /sitecore/templates/Website/Components/ContentHeader/ContentHeadersFolder
 parent: {25443C2C-C0FD-4CD4-9C67-1CA3B482BD84}
-name: HeadersFolder
+name: ContentHeadersFolder
 master: {00000000-0000-0000-0000-000000000000}
 template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
@@ -34,7 +34,7 @@ Office/16x16/folder_open.png
 ----version----
 language: en
 version: 1
-revision: ee8305ec-3308-446f-8623-b8ca926db00f
+revision: 6d47bbfd-a130-4f42-a0e8-cbc46270eff3
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ee8305ec-3308-446f-8623-b8ca926db00f
+6d47bbfd-a130-4f42-a0e8-cbc46270eff3
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161129T234726Z
+20161207T124536Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
