@@ -17,8 +17,8 @@ revision: 2ad81406-e129-4466-9b9a-f5eb7b4f806e
 
 ----field----
 field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
-name: HeaderText
-key: headertext
+name: Header
+key: header
 content-length: 19
 
 Our Newest Products

@@ -14,15 +14,21 @@ created: 20161207T121807:636167098879100000
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 105
+content-length: 668
 
 <r>
-  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4CC50A99-61E5-4140-B7A7-A14B0BCBC20C}" />
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4CC50A99-61E5-4140-B7A7-A14B0BCBC20C}">
+    <r id="{398F4400-FC96-4436-BBE7-D23E48B5261D}" ph="Header" uid="{24A3808D-2BC1-49BE-BAA1-709339F75035}" />
+    <r id="{F33A6CA0-7C23-4993-A52C-B55D8A494C3E}" ph="Main" uid="{06791B93-A0BA-4457-A49F-4A8BEC0D3E9A}" />
+    <r id="{4948DC84-9072-437F-B90F-FE573827373C}" ph="Main" uid="{7914E8FD-990D-4D83-B888-345097A88563}" />
+    <r id="{3F1B0C6C-A8D5-430B-9AB5-B5E7E8370B35}" ph="Content" uid="{BE4C4245-EBF8-4615-9BE3-4FDCD1CD7464}" />
+    <r id="{570B60BE-EEE7-4962-B62F-E564BF2E78D4}" ph="Footer" uid="{88692855-6CB9-4C53-8581-388F5D7B25F3}" />
+  </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: ab3fd0e6-3dc5-4852-a9ce-462fee388fe0
+revision: 468b98b6-9cde-4a50-be55-f5f273300e63
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -51,14 +57,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ab3fd0e6-3dc5-4852-a9ce-462fee388fe0
+468b98b6-9cde-4a50-be55-f5f273300e63
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161207T121833Z
+20161208T154037Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
