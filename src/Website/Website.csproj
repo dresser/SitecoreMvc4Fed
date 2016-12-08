@@ -186,7 +186,7 @@
     <Content Include="Views\Menu\Menu.cshtml" />
     <Content Include="Views\Header\Header.cshtml" />
     <Content Include="Views\Carousel\Carousel.cshtml" />
-    <Content Include="Views\ContentHeader\ContentHeaderH2.cshtml" />
+    <Content Include="Views\Content\ContentHeaderH2.cshtml" />
     <Content Include="Views\Product\NewestProducts.cshtml" />
     <Content Include="Views\Product\ProductTeaser.cshtml" />
     <Content Include="Views\Callout\Callout.cshtml" />
@@ -194,9 +194,9 @@
     <Content Include="Views\Product\TopProducts.cshtml" />
     <Content Include="Views\Structures\Row.cshtml" />
     <Content Include="Views\Footer\Footer.cshtml" />
-    <Content Include="Views\ContentHeader\PageHeader.cshtml" />
+    <Content Include="Views\Content\PageHeader.cshtml" />
     <Content Include="Views\Structures\RowContent.cshtml" />
-    <Content Include="Views\ContentHeader\PageContent.cshtml" />
+    <Content Include="Views\Content\PageContent.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

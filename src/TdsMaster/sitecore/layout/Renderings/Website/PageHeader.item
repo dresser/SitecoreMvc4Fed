@@ -14,9 +14,9 @@ created: 20161208T151530:636168069306100000
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 38
+content-length: 32
 
-/Views/ContentHeader/PageHeader.cshtml
+/Views/Content/PageHeader.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
@@ -34,7 +34,7 @@ content-length: 57
 ----version----
 language: en
 version: 1
-revision: 1ceffaa1-a1a4-4860-a967-b1c933cee3da
+revision: 8571268b-3a23-44b3-adb8-69316c917300
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1ceffaa1-a1a4-4860-a967-b1c933cee3da
+8571268b-3a23-44b3-adb8-69316c917300
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161208T151630Z
+20161208T170205Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
