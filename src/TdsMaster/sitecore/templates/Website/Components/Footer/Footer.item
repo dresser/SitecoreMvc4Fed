@@ -23,11 +23,11 @@ name: __Icon
 key: __icon
 content-length: 32
 
-Office/16x16/document_footer.png
+Office/32x32/document_footer.png
 ----version----
 language: en
 version: 1
-revision: 73620e2a-90de-4dbc-9d3c-fabc42a0c453
+revision: 866fcafb-418f-4a2c-ab5a-531e5865b470
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-73620e2a-90de-4dbc-9d3c-fabc42a0c453
+866fcafb-418f-4a2c-ab5a-531e5865b470
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161205T234327Z
+20161207T214712Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

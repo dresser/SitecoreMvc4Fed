@@ -13,7 +13,7 @@ created: 20161205T234310:636165781905670000
 ----version----
 language: en
 version: 1
-revision: 53d0d270-19db-4e1b-88e2-a1771bd2479d
+revision: fd60612d-730a-40be-8116-e49155b50471
 
 ----field----
 field: {9FEE039A-5D43-4245-B9E5-87DE0ED0BD5A}
@@ -29,6 +29,20 @@ key: description
 content-length: 231
 
 Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit.
+----field----
+field: {7816B9FA-87F3-47CE-A20E-543FF17AB8D0}
+name: FooterMenu1
+key: footermenu1
+content-length: 38
+
+{4C84EAC7-5ECC-47C1-AB21-A9890589D5D2}
+----field----
+field: {2BE83153-6261-4C7E-A659-3AC33AFF3268}
+name: FooterMenu2
+key: footermenu2
+content-length: 38
+
+{F29C502C-2EB3-46E0-86C5-6507C0873677}
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -56,14 +70,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-53d0d270-19db-4e1b-88e2-a1771bd2479d
+fd60612d-730a-40be-8116-e49155b50471
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161205T234726Z
+20161208T095114Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

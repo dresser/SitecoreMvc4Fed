@@ -1,15 +1,29 @@
 ﻿@model Sitecore.Mvc.Presentation.RenderingModel
 <div class="callout large secondary">
+    @{ 
+        var db = Model.Item.Database;
+        var query = @"fast:/ancestor::*[@@templatename='Website']//*[@@templatename='SettingsFolder']//*[@@templatename='Footer']";
+        var footerMenu1ItemId = "";
+        var footerMenu2ItemId = "";
+        var footerItem = db.SelectSingleItem(query);
+        if (footerItem != null)
+        {
+            var footerMenu1Item = db.GetItem(footerItem["FooterMenu1"]);
+            footerMenu1ItemId = footerMenu1Item != null ? footerMenu1Item.ID.ToString() : "";
+            var footerMenu2Item = db.GetItem(footerItem["FooterMenu2"]);
+            footerMenu2ItemId = footerMenu2Item != null ? footerMenu2Item.ID.ToString() : "";
+        }
+    }
     <div class="row">
         <div class="large-4 columns">
-            <h5>@Html.Sitecore().Field("Title")</h5>
-            <p>@Html.Sitecore().Field("Description")</p>
+            <h5>@Html.Sitecore().Field("Title", footerItem)</h5>
+            <p>@Html.Sitecore().Field("Description", footerItem)</p>
         </div>
         <div class="large-3 large-offset-2 columns">
-            @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = "{4C84EAC7-5ECC-47C1-AB21-A9890589D5D2}", Parameters = "Vertical=1" })
+            @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = footerMenu1ItemId, Parameters = "Vertical=1" })
         </div>
         <div class="large-3 columns">
-            @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = "{F29C502C-2EB3-46E0-86C5-6507C0873677}", Parameters = "Vertical=1" })
+            @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = footerMenu2ItemId, Parameters = "Vertical=1" })
         </div>
     </div>
 </div>

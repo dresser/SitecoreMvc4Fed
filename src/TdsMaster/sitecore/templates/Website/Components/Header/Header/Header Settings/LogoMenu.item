@@ -16,18 +16,18 @@ name: Type
 key: type
 content-length: 8
 
-Droptree
+Droplink
 ----field----
 field: {1EB8AE32-E190-44A6-968D-ED904C794EBF}
 name: Source
 key: source
-content-length: 40
+content-length: 112
 
-/sitecore/content/Mvc4Fed/Settings/Menus
+fast:/ancestor::*[@@templatename='Website']//*[@@templatename='SettingsFolder']//*[@@templatename='MenusFolder']
 ----version----
 language: en
 version: 1
-revision: 8eaf0f4d-63ce-4225-8e32-2ecb3140c126
+revision: 98c6376c-c714-4fb5-bd7e-53e30fc65a9d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,14 +42,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8eaf0f4d-63ce-4225-8e32-2ecb3140c126
+98c6376c-c714-4fb5-bd7e-53e30fc65a9d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161207T144646Z
+20161208T094925Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
