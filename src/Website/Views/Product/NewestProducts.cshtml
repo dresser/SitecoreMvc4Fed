@@ -2,7 +2,7 @@
 @model Sitecore.Mvc.Presentation.RenderingModel
 <div class="row small-up-2 large-up-4">
     @{ 
-        var field = new MultilistField(Model.Item.Fields["Products"]);
+        var field = new MultilistField(Model.Item.Fields["SelectedProducts"]);
         var productItems = field.GetItems();
     }
     @for (int i = 0; i < productItems.Length; i++)

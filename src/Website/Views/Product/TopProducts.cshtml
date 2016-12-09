@@ -1,9 +1,9 @@
 ﻿@using Sitecore.Data.Fields
 @model Sitecore.Mvc.Presentation.RenderingModel
 <div class="medium-4 columns">
-    <h4>@Html.Sitecore().Field("Title")</h4>
+    <h4>@Html.Sitecore().Field("Header")</h4>
     @{
-        var field = new MultilistField(Model.Item.Fields["Products"]);
+        var field = new MultilistField(Model.Item.Fields["SelectedProducts"]);
         var productItems = field.GetItems();
     }
     @foreach (var product in productItems)

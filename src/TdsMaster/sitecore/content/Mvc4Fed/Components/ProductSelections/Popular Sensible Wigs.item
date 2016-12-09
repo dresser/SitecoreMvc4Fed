@@ -13,22 +13,22 @@ created: 20161205T170217:636165541376500000
 ----version----
 language: en
 version: 1
-revision: 28930cd7-bf84-4b42-afea-a7870a5d227c
+revision: b04a7107-5861-434f-8a3f-b71f8d14e438
 
 ----field----
+field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
+name: Header
+key: header
+content-length: 12
+
+Regular Wigs
+----field----
 field: {5149DDD9-8C38-47F9-AEDE-5ED968D3E757}
-name: Products
-key: products
+name: SelectedProducts
+key: selectedproducts
 content-length: 116
 
 {7DD64A06-3BE3-4D49-BB72-A9D3E90D5A58}|{CCAF2AB4-DBA5-43ED-9E8A-98541CF22DEC}|{D4CD0467-BB2F-40A0-B51D-07384319B495}
-----field----
-field: {79F0209E-B3C1-471E-BB83-F1E558592BB1}
-name: Title
-key: title
-content-length: 13
-
-Sensible Wigs
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -56,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-28930cd7-bf84-4b42-afea-a7870a5d227c
+b04a7107-5861-434f-8a3f-b71f8d14e438
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161205T215925Z
+20161209T165115Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

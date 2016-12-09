@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {8B3483FB-A887-4515-ABD9-335957278D5E}
+database: master
+path: /sitecore/content/Mvc4Fed/Components/ProductSelections/Coloured Wigs
+parent: {3F8A6C98-27F3-4380-AF15-66F485081ACC}
+name: Coloured Wigs
+master: {00000000-0000-0000-0000-000000000000}
+template: {D78F5772-ABAD-41C4-9EEA-D9FF4CD4C6D6}
+templatekey: TopProducts
+created: 20161205T170322:636165542021700000
+
+----version----
+language: en
+version: 1
+revision: df06ee1f-2d49-4a14-9767-4e85bb370c43
+
+----field----
+field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
+name: Header
+key: header
+content-length: 13
+
+Coloured Wigs
+----field----
+field: {5149DDD9-8C38-47F9-AEDE-5ED968D3E757}
+name: SelectedProducts
+key: selectedproducts
+content-length: 116
+
+{453B2E51-90F6-4FD8-94A6-2A98777603CD}|{C3B70312-1D47-4954-9D7A-D3E6BF937F42}|{F5522292-0874-4475-8005-B8590813574A}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161205T164109Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+df06ee1f-2d49-4a14-9767-4e85bb370c43
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20161209T165103Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
