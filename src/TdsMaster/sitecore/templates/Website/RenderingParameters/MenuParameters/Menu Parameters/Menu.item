@@ -1,14 +1,14 @@
 ----item----
 version: 1
-id: {9612A0C5-B171-46F8-8110-5C7F058A58EB}
+id: {C8562A87-D462-4AC8-94F4-2EDD4EF12491}
 database: master
-path: /sitecore/templates/Website/RenderingParameters/MenuParameters/Menu Parameters/Vertical
+path: /sitecore/templates/Website/RenderingParameters/MenuParameters/Menu Parameters/Menu
 parent: {3011F36B-0D8C-4385-ADCD-F61BD3404BF8}
-name: Vertical
+name: Menu
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
-created: 20161205T235023:636165786236070000
+created: 20161209T103704:636168766246130000
 
 ----field----
 field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
@@ -23,11 +23,11 @@ name: __Sortorder
 key: __sortorder
 content-length: 3
 
-300
+200
 ----version----
 language: en
 version: 1
-revision: 7f947569-b368-49fc-9925-b18703e45702
+revision: 7388152d-3f9a-4690-a54a-2c6fb6dcae80
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -35,14 +35,14 @@ name: __Created
 key: __created
 content-length: 16
 
-20161205T235023Z
+20161209T103704Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-7f947569-b368-49fc-9925-b18703e45702
+7388152d-3f9a-4690-a54a-2c6fb6dcae80
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated

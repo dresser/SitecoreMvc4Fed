@@ -20,10 +20,10 @@
             <p>@Html.Sitecore().Field("Description", footerItem)</p>
         </div>
         <div class="large-3 large-offset-2 columns">
-            @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = footerMenu1ItemId, Parameters = "Vertical=1" })
+            @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = footerMenu1ItemId, Parameters = "Vertical=1&Menu=1" })
         </div>
         <div class="large-3 columns">
-            @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = footerMenu2ItemId, Parameters = "Vertical=1" })
+            @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = footerMenu2ItemId, Parameters = "Vertical=1&Menu=1" })
         </div>
     </div>
 </div>

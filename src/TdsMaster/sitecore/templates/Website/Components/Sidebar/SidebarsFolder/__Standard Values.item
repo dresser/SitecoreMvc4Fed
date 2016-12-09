@@ -1,27 +1,27 @@
 ----item----
 version: 1
-id: {5F95A204-2580-4855-AA9C-2C2A1A92039E}
+id: {41FE1BDA-5388-4683-AF18-34847D87B421}
 database: master
-path: /sitecore/templates/Website/RenderingParameters/MenuParameters/__Standard Values
-parent: {CB8E0439-0952-45A0-86D2-C942E088BD6F}
+path: /sitecore/templates/Website/Components/Sidebar/SidebarsFolder/__Standard Values
+parent: {B78CB20B-DB13-4D1F-9CF4-8B9B4436267B}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {CB8E0439-0952-45A0-86D2-C942E088BD6F}
-templatekey: MenuParameters
-created: 20161209T103709:636168766293600000
+template: {B78CB20B-DB13-4D1F-9CF4-8B9B4436267B}
+templatekey: SidebarsFolder
+created: 20161208T234033:636168372336300000
 
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{66C047DF-6C0F-43F7-ACD9-390546219967}
 ----version----
 language: en
 version: 1
-revision: 602bcf02-3ef2-4701-8ef9-022a4cad53ef
+revision: 021a7cf3-1cc2-44a1-898b-db18b1773472
 
-----field----
-field: {C8562A87-D462-4AC8-94F4-2EDD4EF12491}
-name: Menu
-key: menu
-content-length: 1
-
-1
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -35,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20161209T103709Z
+20161208T234033Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-602bcf02-3ef2-4701-8ef9-022a4cad53ef
+021a7cf3-1cc2-44a1-898b-db18b1773472
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161209T103746Z
+20161208T234046Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

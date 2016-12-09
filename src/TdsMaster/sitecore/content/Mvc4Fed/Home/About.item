@@ -10,10 +10,17 @@ template: {D9500861-DE54-4917-9D92-15D8E55F4DBE}
 templatekey: FreeTextPage
 created: 20161207T121932:636167099721700000
 
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 186
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{874094A0-36B5-4EBB-A616-163396C7EEE6}" s:ds="{5CC10C31-0A37-4AEA-B51D-6EFFA253B8E2}" /></d></r>
 ----version----
 language: en
 version: 1
-revision: 0e0b464c-4280-470b-82de-30ba6e480d3b
+revision: 725a0223-3bea-4145-8b5c-f6f7b4c32d66
 
 ----field----
 field: {0376731F-3535-40FC-815B-F4BBE18A77DB}
@@ -70,14 +77,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0e0b464c-4280-470b-82de-30ba6e480d3b
+725a0223-3bea-4145-8b5c-f6f7b4c32d66
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161208T164856Z
+20161209T105811Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

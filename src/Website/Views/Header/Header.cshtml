@@ -15,9 +15,9 @@
         }
     }
     <div class="top-bar-left">
-        @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = siteLogoMenuItemId, Parameters = "Vertical=0" })
+        @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = siteLogoMenuItemId, Parameters = "Vertical=0&Menu=1" })
     </div>
     <div class="top-bar-right">
-        @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = secondaryMenuItemId, Parameters = "Vertical=0" })
+        @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = secondaryMenuItemId, Parameters = "Vertical=0&Menu=1" })
     </div>
 </div>

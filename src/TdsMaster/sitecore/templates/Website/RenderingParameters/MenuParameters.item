@@ -23,7 +23,7 @@ name: __Standard values
 key: __standard values
 content-length: 38
 
-{4D3C1CB8-5DE4-47AD-BEA6-C56065B77B0B}
+{5F95A204-2580-4855-AA9C-2C2A1A92039E}
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -34,7 +34,7 @@ Applications/32x32/form_blue.png
 ----version----
 language: en
 version: 1
-revision: 49b789f2-40f6-4088-9c2f-aa604833d67f
+revision: ae4dcbdb-a49b-4304-9705-7c85649f886d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-49b789f2-40f6-4088-9c2f-aa604833d67f
+ae4dcbdb-a49b-4304-9705-7c85649f886d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161207T123249Z
+20161209T103709Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 18
+content-length: 14
 
-extranet\Anonymous
+sitecore\admin

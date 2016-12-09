@@ -197,6 +197,7 @@
     <Content Include="Views\Content\PageHeader.cshtml" />
     <Content Include="Views\Structures\RowContent.cshtml" />
     <Content Include="Views\Content\PageContent.cshtml" />
+    <Content Include="Views\Content\SidebarWidget.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,6 +1,6 @@
 ﻿@using Sitecore.Data.Items
 @model Sitecore.Mvc.Presentation.RenderingModel
-<ul class="menu@(Model.Rendering.Parameters["Vertical"] == "1" ? " vertical" : "")">
+<ul class="@(Model.Rendering.Parameters["Menu"] == "1" ? "menu" : "") @(Model.Rendering.Parameters["Vertical"] == "1" ? " vertical" : "")">
     @foreach (var menuItem in (IEnumerable <Item>)Model.Item.Children)
     {
         if (menuItem.Template.Name == "TextItem")

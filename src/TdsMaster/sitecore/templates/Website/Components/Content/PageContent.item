@@ -21,13 +21,13 @@ content-length: 38
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 32
+content-length: 30
 
-Applications/32x32/form_blue.png
+Office/16x16/document_text.png
 ----version----
 language: en
 version: 1
-revision: e2996358-bf79-4ccb-88b4-8b1ce4f9ea48
+revision: 7ffdfbdd-0c83-4c56-8c8e-d046e1c07f0d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-e2996358-bf79-4ccb-88b4-8b1ce4f9ea48
+7ffdfbdd-0c83-4c56-8c8e-d046e1c07f0d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161208T160234Z
+20161209T112812Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

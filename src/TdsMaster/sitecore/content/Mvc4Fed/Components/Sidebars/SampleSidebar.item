@@ -1,27 +1,27 @@
 ----item----
 version: 1
-id: {5F95A204-2580-4855-AA9C-2C2A1A92039E}
+id: {5CC10C31-0A37-4AEA-B51D-6EFFA253B8E2}
 database: master
-path: /sitecore/templates/Website/RenderingParameters/MenuParameters/__Standard Values
-parent: {CB8E0439-0952-45A0-86D2-C942E088BD6F}
-name: __Standard Values
+path: /sitecore/content/Mvc4Fed/Components/Sidebars/SampleSidebar
+parent: {0C239BA9-0AC3-4827-8601-1110B66153D1}
+name: SampleSidebar
 master: {00000000-0000-0000-0000-000000000000}
-template: {CB8E0439-0952-45A0-86D2-C942E088BD6F}
-templatekey: MenuParameters
-created: 20161209T103709:636168766293600000
+template: {66C047DF-6C0F-43F7-ACD9-390546219967}
+templatekey: SidebarWidget
+created: 20161208T234227:636168373472030000
 
 ----version----
 language: en
 version: 1
-revision: 602bcf02-3ef2-4701-8ef9-022a4cad53ef
+revision: 5095904b-3c57-411d-bc28-44b6cc42c73a
 
 ----field----
-field: {C8562A87-D462-4AC8-94F4-2EDD4EF12491}
-name: Menu
-key: menu
-content-length: 1
+field: {7F256E68-52B0-4671-B836-C127AC3E7174}
+name: Header
+key: header
+content-length: 10
 
-1
+Categories
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -35,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20161209T103709Z
+20161208T234227Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-602bcf02-3ef2-4701-8ef9-022a4cad53ef
+5095904b-3c57-411d-bc28-44b6cc42c73a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161209T103746Z
+20161209T105935Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,27 +1,27 @@
 ----item----
 version: 1
-id: {5F95A204-2580-4855-AA9C-2C2A1A92039E}
+id: {DB7881EF-43BC-427F-8BAE-53F2299BAEF2}
 database: master
-path: /sitecore/templates/Website/RenderingParameters/MenuParameters/__Standard Values
-parent: {CB8E0439-0952-45A0-86D2-C942E088BD6F}
-name: __Standard Values
+path: /sitecore/content/Mvc4Fed/Components/Sidebars/SampleSidebar/LinkItem2
+parent: {5CC10C31-0A37-4AEA-B51D-6EFFA253B8E2}
+name: LinkItem2
 master: {00000000-0000-0000-0000-000000000000}
-template: {CB8E0439-0952-45A0-86D2-C942E088BD6F}
-templatekey: MenuParameters
-created: 20161209T103709:636168766293600000
+template: {5EC559EE-44BE-4C60-9867-9CAF8A276D45}
+templatekey: LinkItem
+created: 20161209T105258:636168775788500000
 
 ----version----
 language: en
 version: 1
-revision: 602bcf02-3ef2-4701-8ef9-022a4cad53ef
+revision: 1e1806d1-9eb1-4ea1-84b7-21737d77a45b
 
 ----field----
-field: {C8562A87-D462-4AC8-94F4-2EDD4EF12491}
-name: Menu
-key: menu
-content-length: 1
+field: {1429C059-13A2-42A3-81BD-7AB1311704DC}
+name: Link
+key: link
+content-length: 150
 
-1
+<link text="" linktype="internal" url="" anchor="" title="Funny Wigs" class="" querystring="" target="" id="{DA27B64D-89BC-4CDA-B2C3-A1B668F7C7AD}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -35,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20161209T103709Z
+20161209T105258Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-602bcf02-3ef2-4701-8ef9-022a4cad53ef
+1e1806d1-9eb1-4ea1-84b7-21737d77a45b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161209T103746Z
+20161209T105330Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
