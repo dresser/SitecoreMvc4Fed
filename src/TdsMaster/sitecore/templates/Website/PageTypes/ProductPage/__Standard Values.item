@@ -10,10 +10,25 @@ template: {74C38A17-A2D2-42DC-8973-B66B7C19B88B}
 templatekey: ProductPage
 created: 20161205T173704:636165562248330000
 
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 663
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4CC50A99-61E5-4140-B7A7-A14B0BCBC20C}">
+    <r id="{398F4400-FC96-4436-BBE7-D23E48B5261D}" ph="Header" uid="{8F281741-7F15-4B53-B007-EAA1F016014A}" />
+    <r id="{7B1B677A-16E1-43F0-8DA8-551AC37FC3C9}" ph="Main" uid="{C54792B9-6D65-4635-8069-37CCC292B56B}" />
+    <r id="{D0B1F375-EA6E-42FE-ABA4-4FAC0D1B9DFD}" ph="Row" uid="{1C4A0C31-11D2-44C7-B970-9AC4E3ED0D8A}" />
+    <r id="{A80337E7-92D6-4B22-8DA8-BC3374CF0C4A}" ph="Row" uid="{3B8E79A5-469E-43B3-8D8A-0F8079DC54A3}" />
+    <r id="{570B60BE-EEE7-4962-B62F-E564BF2E78D4}" ph="Footer" uid="{DC0BA84D-D852-415C-9C9E-2A997D1A510E}" />
+  </d>
+</r>
 ----version----
 language: en
 version: 1
-revision: 3f24f918-d143-45b2-a7f6-082df5e7566a
+revision: b248baa7-dff9-40b0-9989-3f36457b60ff
 
 ----field----
 field: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
@@ -56,14 +71,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-3f24f918-d143-45b2-a7f6-082df5e7566a
+b248baa7-dff9-40b0-9989-3f36457b60ff
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161205T173728Z
+20161210T121639Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
