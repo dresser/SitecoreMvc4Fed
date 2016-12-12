@@ -2,9 +2,9 @@
 version: 1
 id: {CDAC63EC-ABA5-4F41-ACF8-EF8A97D7F16C}
 database: master
-path: /sitecore/content/Mvc4Fed/Settings/Dictionary/Reviews
+path: /sitecore/content/Mvc4Fed/Settings/Dictionary/ReviewsTab
 parent: {41553517-6C11-4B13-8132-ED9178F0BDE8}
-name: Reviews
+name: ReviewsTab
 master: {00000000-0000-0000-0000-000000000000}
 template: {51CA07B0-BBCD-4B52-9752-CC243E155B31}
 templatekey: DictionaryFolder
@@ -13,7 +13,7 @@ created: 20161212T085246:636171295663500000
 ----version----
 language: en
 version: 1
-revision: 52bc1a6d-4b4a-447d-b9ab-49e0362af5f8
+revision: 9b5a8cf7-812e-47aa-8468-19a782e1bdf6
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -28,14 +28,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-52bc1a6d-4b4a-447d-b9ab-49e0362af5f8
+9b5a8cf7-812e-47aa-8468-19a782e1bdf6
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161212T085246Z
+20161212T220906Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

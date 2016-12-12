@@ -1,7 +1,15 @@
 ﻿@using System.Linq
 @model Sitecore.Mvc.Presentation.RenderingModel
 <div class="tabs-panel @(Model.Rendering.Properties["IsActive"] == "True" ? "is-active" : "")" id="@Model.Rendering.Properties["PanelId"]">
-    <h4>Reviews</h4>
+    @{ 
+        var db = Model.Item.Database;
+        var query = @"fast:/ancestor::*[@@templatename='Website']//*[@@templatename='SettingsFolder']//*[@@templatename='DictionaryRoot']//*[@@name='ReviewsTab']";
+        var reviewsTab = db.SelectSingleItem(query);
+        var myReviewLabel = reviewsTab.Children["MyReviewLabel"];
+        var reviewPlaceholder = reviewsTab.Children["ReviewPlaceholder"];
+        var submitReviewButton = reviewsTab.Children["SubmitReviewButton"];
+    }
+    <h4 id="@reviewsTab.ID">Reviews</h4>
     <div class="media-object stack-for-small">
         <div class="media-object-section">
             <img class="thumbnail" src="http://placehold.it/200x200">
@@ -30,8 +38,8 @@
         </div>
     </div>
     <label>
-        My Review
-        <textarea placeholder="None"></textarea>
+        @Html.Sitecore().Field("Phrase", myReviewLabel)
+        <textarea placeholder="@Html.Sitecore().Field("Phrase", reviewPlaceholder, new { DisableWebedit = true })"></textarea>
     </label>
-    <button class="button">Submit Review</button>
+    <button class="button">@Html.Sitecore().Field("Phrase", submitReviewButton, new { DisableWebedit = true })</button>
 </div>
