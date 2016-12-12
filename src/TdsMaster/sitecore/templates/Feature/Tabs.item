@@ -1,33 +1,19 @@
 ----item----
 version: 1
-id: {22219B6E-EBD2-481B-8661-4A89E6CD4115}
+id: {253D1748-5C63-42A3-A278-2E4079323EC3}
 database: master
-path: /sitecore/templates/Feature/Product/_Product
-parent: {48FB59CB-A434-41EC-B1A2-35A1A9749102}
-name: _Product
+path: /sitecore/templates/Feature/Tabs
+parent: {DEDF92CD-A798-4B62-B234-C7CE84E5E11D}
+name: Tabs
 master: {00000000-0000-0000-0000-000000000000}
-template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
-templatekey: Template
-created: 20161209T162109:636168972693200000
+template: {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+templatekey: Template Folder
+created: 20161211T122057:636170556570000000
 
-----field----
-field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
-name: __Base template
-key: __base template
-content-length: 38
-
-{1930BBEB-7805-471A-A3BE-4858AC7CF696}
-----field----
-field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
-name: __Icon
-key: __icon
-content-length: 32
-
-Applications/32x32/form_blue.png
 ----version----
 language: en
 version: 1
-revision: 26adc5cd-7d31-43da-b96b-08a89d0c7640
+revision: eb026980-0044-48de-b36e-e317a45ead96
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -35,7 +21,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20161209T162109Z
+20161211T122057Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +35,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-26adc5cd-7d31-43da-b96b-08a89d0c7640
+eb026980-0044-48de-b36e-e317a45ead96
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161210T205542Z
+20161211T122059Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

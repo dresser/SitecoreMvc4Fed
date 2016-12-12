@@ -1,33 +1,33 @@
 ----item----
 version: 1
-id: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
+id: {9716946D-8A6D-4084-96B9-7B7FB9166E76}
 database: master
-path: /sitecore/templates/Feature/Product/_Product/Product/Name
+path: /sitecore/templates/Feature/Product/_Product/Product/SecondaryImage3
 parent: {68F9540A-6861-47C6-91B7-84DB89293556}
-name: Name
+name: SecondaryImage3
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
-created: 20161130T204525:636161355258130000
+created: 20161210T205542:636170001422300000
 
 ----field----
 field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
 name: Type
 key: type
-content-length: 16
+content-length: 5
 
-Single-Line Text
+Image
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
 key: __sortorder
 content-length: 4
 
-1000
+1600
 ----version----
 language: en
 version: 1
-revision: 73496b33-2a61-48af-9d77-14277a006a10
+revision: 35147d44-c0c2-4f15-b194-4f2510f1f06d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -35,14 +35,14 @@ name: __Created
 key: __created
 content-length: 16
 
-20161130T204525Z
+20161210T205542Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-73496b33-2a61-48af-9d77-14277a006a10
+35147d44-c0c2-4f15-b194-4f2510f1f06d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated

@@ -1,18 +1,18 @@
 ﻿@model Sitecore.Mvc.Presentation.RenderingModel
 <div class="medium-6 columns">
-    <img class="thumbnail" src="http://placehold.it/650x350">
+    @Html.Sitecore().Field("MainImage", new { @class = "thumbnail", w = 650, h = 350, @as = 1, bc = "white" })
     <div class="row small-up-4">
         <div class="column">
-            <img class="thumbnail" src="http://placehold.it/250x200">
+            @Html.Sitecore().Field("SecondaryImage1", new { @class = "thumbnail", w = 250, h = 200, @as = 1, bc = "white" })
         </div>
         <div class="column">
-            <img class="thumbnail" src="http://placehold.it/250x200">
+            @Html.Sitecore().Field("SecondaryImage2", new { @class = "thumbnail", w = 250, h = 200, @as = 1, bc = "white" })
         </div>
         <div class="column">
-            <img class="thumbnail" src="http://placehold.it/250x200">
+            @Html.Sitecore().Field("SecondaryImage3", new { @class = "thumbnail", w = 250, h = 200, @as = 1, bc = "white" })
         </div>
         <div class="column">
-            <img class="thumbnail" src="http://placehold.it/250x200">
+            @Html.Sitecore().Field("SecondaryImage4", new { @class = "thumbnail", w = 250, h = 200, @as = 1, bc = "white" })
         </div>
     </div>
 </div>

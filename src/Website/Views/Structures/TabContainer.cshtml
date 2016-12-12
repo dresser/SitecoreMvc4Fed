@@ -1,0 +1,86 @@
+﻿@using System.Linq
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="column row">
+    <hr>
+    @{ 
+        var placeholder = "TabContainer";
+        var renderingReferences = Sitecore.Context.Item.Visualization.GetRenderings(Sitecore.Context.Device, true);
+        var renderingsInPlaceholder = renderingReferences.Where(r => r.Placeholder.EndsWith('/' + placeholder, StringComparison.OrdinalIgnoreCase));
+    }
+    <ul class="tabs" data-tabs id="example-tabs" data-tabs-count="@renderingsInPlaceholder.Count()">
+        <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Reviews</a></li>
+        <li class="tabs-title"><a href="#panel2">Similar Products</a></li>
+    </ul>
+    <div class="tabs-content" data-tabs-content="example-tabs">
+        @Html.Sitecore().Placeholder("TabContainer")
+        <div class="tabs-panel is-active" id="panel1">
+            <h4>Reviews</h4>
+            <div class="media-object stack-for-small">
+                <div class="media-object-section">
+                    <img class="thumbnail" src="http://placehold.it/200x200">
+                </div>
+                <div class="media-object-section">
+                    <h5>Mike Stevenson</h5>
+                    <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+                </div>
+            </div>
+            <div class="media-object stack-for-small">
+                <div class="media-object-section">
+                    <img class="thumbnail" src="http://placehold.it/200x200">
+                </div>
+                <div class="media-object-section">
+                    <h5>Mike Stevenson</h5>
+                    <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
+                </div>
+            </div>
+            <div class="media-object stack-for-small">
+                <div class="media-object-section">
+                    <img class="thumbnail" src="http://placehold.it/200x200">
+                </div>
+                <div class="media-object-section">
+                    <h5>Mike Stevenson</h5>
+                    <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
+                </div>
+            </div>
+            <label>
+                My Review
+                <textarea placeholder="None"></textarea>
+            </label>
+            <button class="button">Submit Review</button>
+        </div>
+        <div class="tabs-panel" id="panel2">
+            <div class="row medium-up-3 large-up-5">
+                <div class="column">
+                    <img class="thumbnail" src="http://placehold.it/350x200">
+                    <h5>Other Product <small>$22</small></h5>
+                    <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
+                    <a href="#" class="button hollow tiny expanded">Buy Now</a>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="http://placehold.it/350x200">
+                    <h5>Other Product <small>$22</small></h5>
+                    <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
+                    <a href="#" class="button hollow tiny expanded">Buy Now</a>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="http://placehold.it/350x200">
+                    <h5>Other Product <small>$22</small></h5>
+                    <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
+                    <a href="#" class="button hollow tiny expanded">Buy Now</a>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="http://placehold.it/350x200">
+                    <h5>Other Product <small>$22</small></h5>
+                    <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
+                    <a href="#" class="button hollow tiny expanded">Buy Now</a>
+                </div>
+                <div class="column">
+                    <img class="thumbnail" src="http://placehold.it/350x200">
+                    <h5>Other Product <small>$22</small></h5>
+                    <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
+                    <a href="#" class="button hollow tiny expanded">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

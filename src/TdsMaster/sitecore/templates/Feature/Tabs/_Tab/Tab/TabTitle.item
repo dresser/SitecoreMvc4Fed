@@ -1,14 +1,14 @@
 ----item----
 version: 1
-id: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
+id: {D8C1A513-E082-4637-AA58-D2E63EBBCB7B}
 database: master
-path: /sitecore/templates/Feature/Product/_Product/Product/Name
-parent: {68F9540A-6861-47C6-91B7-84DB89293556}
-name: Name
+path: /sitecore/templates/Feature/Tabs/_Tab/Tab/TabTitle
+parent: {B4F3368F-2773-4FE9-86DA-8A3468DCCE32}
+name: TabTitle
 master: {00000000-0000-0000-0000-000000000000}
 template: {455A3E98-A627-4B40-8035-E683A0331AC7}
 templatekey: Template field
-created: 20161130T204525:636161355258130000
+created: 20161211T122126:636170556867530000
 
 ----field----
 field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
@@ -17,17 +17,10 @@ key: type
 content-length: 16
 
 Single-Line Text
-----field----
-field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
-name: __Sortorder
-key: __sortorder
-content-length: 4
-
-1000
 ----version----
 language: en
 version: 1
-revision: 73496b33-2a61-48af-9d77-14277a006a10
+revision: 761d41ca-ca45-46ce-8052-e2845e1e6267
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -35,21 +28,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20161130T204525Z
+20161211T122126Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-73496b33-2a61-48af-9d77-14277a006a10
+761d41ca-ca45-46ce-8052-e2845e1e6267
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161211T115805Z
+20161211T122126Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

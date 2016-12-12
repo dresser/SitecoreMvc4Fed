@@ -1,8 +1,8 @@
 ﻿@model Sitecore.Mvc.Presentation.RenderingModel
 <div class="medium-6 large-5 columns">
-    <h3>My Awesome Product</h3>
-    <p>Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in.</p>
-    <label>
+    <h3>@Html.Sitecore().Field("Name")</h3>
+    <p>@Html.Sitecore().Field("Description")</p>
+    @*<label>
         Size
         <select>
             <option value="husker">Small</option>
@@ -10,7 +10,7 @@
             <option value="hotdog">Large</option>
             <option value="apollo">Yeti</option>
         </select>
-    </label>
+    </label>*@
     <div class="row">
         <div class="small-3 columns">
             <label for="middle-label" class="middle">Quantity</label>
