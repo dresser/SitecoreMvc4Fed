@@ -1,17 +1,22 @@
 ﻿@using System.Linq
+@using Sitecore.Data
 @model Sitecore.Mvc.Presentation.RenderingModel
 <div class="column row">
     <hr>
     @{ 
-        var placeholder = "TabContainer";
-        var renderingReferences = Sitecore.Context.Item.Visualization.GetRenderings(Sitecore.Context.Device, true);
-        var renderingsInPlaceholder = renderingReferences.Where(r => r.Placeholder.EndsWith('/' + placeholder, StringComparison.OrdinalIgnoreCase));
+        var tabIds = ID.ParseArray(Model.Rendering.Parameters["Tabs"]);
+        var tabs = tabIds.Select(id => Model.Item.Database.GetItem(id)).Where(i => i != null).ToArray();
     }
-    <ul class="tabs" data-tabs id="example-tabs" data-tabs-count="@renderingsInPlaceholder.Count()">
-        <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Reviews</a></li>
-        <li class="tabs-title"><a href="#panel2">Similar Products</a></li>
+    <ul class="tabs" data-tabs id="example-tabs" data-tabs-count="@tabs.Length">
+        @for (int i = 0; i < tabs.Length; i++)
+        {
+            <li class="tabs-title @(i == 0 ? "is-active" : "")"><a href="#panel@(i + 1)" @(i == 0 ? "aria-selected=\"true\"" : "")>@Html.Sitecore().Field("Title", tabs[i])</a></li>
+        }
     </ul>
     <div class="tabs-content" data-tabs-content="example-tabs">
-        @Html.Sitecore().Placeholder("TabContainer")        
+        @for (int i = 0; i < tabs.Length; i++)
+        {
+            @Html.Sitecore().ItemRendering(tabs[i]);
+        }
     </div>
 </div>

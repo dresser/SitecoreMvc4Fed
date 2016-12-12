@@ -1,26 +1,26 @@
 ----item----
 version: 1
-id: {8B1E107A-5180-4B4D-93E4-C9D83CBF1467}
+id: {E20279D5-2025-4B13-9DEC-1ECCD0C65B6A}
 database: master
-path: /sitecore/templates/Website/ContentTypes/Settings/SettingsFolder/__Standard Values
-parent: {F5954DEE-5E5F-4D3C-9A43-FA28520E327E}
+path: /sitecore/templates/Website/ContentTypes/Product/ReviewsTab/__Standard Values
+parent: {2B8D3116-A466-4FA4-9EFE-DB87D7EFE8C2}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {F5954DEE-5E5F-4D3C-9A43-FA28520E327E}
-templatekey: SettingsFolder
-created: 20161127T112701:636158428211530000
+template: {2B8D3116-A466-4FA4-9EFE-DB87D7EFE8C2}
+templatekey: ReviewsTab
+created: 20161212T095823:636171335036630000
 
 ----field----
-field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
-name: __Masters
-key: __masters
-content-length: 194
+field: {B03569B1-1534-43F2-8C83-BD064B7D782C}
+name: __Renderers
+key: __renderers
+content-length: 38
 
-{F33FC5EE-2978-4070-BC83-609750C44F0A}|{A91D28D2-6B9E-4126-8B81-0A6F15216E2F}|{39E6BA91-EFBB-4C59-AEDF-DF7946E833C1}|{C97EF8D7-9302-4226-8954-B86388A8BC62}|{974CF828-3268-4CC8-84E1-00E263DA4AAE}
+{1BD618D7-2324-4DB9-99B1-46C7D64618ED}
 ----version----
 language: en
 version: 1
-revision: 8b9f2405-f90d-4dba-9d74-641a45a64b76
+revision: 50d4ae87-53c0-41f8-b6f5-a70931194c76
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -35,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20161127T112701Z
+20161212T095823Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-8b9f2405-f90d-4dba-9d74-641a45a64b76
+50d4ae87-53c0-41f8-b6f5-a70931194c76
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161212T090733Z
+20161212T095905Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
