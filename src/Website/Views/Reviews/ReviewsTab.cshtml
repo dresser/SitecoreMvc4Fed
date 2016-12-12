@@ -1,6 +1,6 @@
 ﻿@using System.Linq
 @model Sitecore.Mvc.Presentation.RenderingModel
-<div class="tabs-panel is-active" id="panel1">
+<div class="tabs-panel @(Model.Rendering.Properties["IsActive"] == "True" ? "is-active" : "")" id="@Model.Rendering.Properties["PanelId"]">
     <h4>Reviews</h4>
     <div class="media-object stack-for-small">
         <div class="media-object-section">

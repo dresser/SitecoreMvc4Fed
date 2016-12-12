@@ -1,6 +1,6 @@
 ﻿@using Sitecore.Data.Fields
 @model Sitecore.Mvc.Presentation.RenderingModel
-<div class="tabs-panel" id="panel2">
+<div class="tabs-panel @(Model.Rendering.Properties["IsActive"] == "True" ? "is-active" : "")" id="@Model.Rendering.Properties["PanelId"]">
     <div class="row medium-up-3 large-up-5">
         <div class="column">
             <img class="thumbnail" src="http://placehold.it/350x200">
