@@ -1,5 +1,8 @@
 ﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@{ 
+    var menuRenderingId = "{11A66AC3-12D7-494D-A87C-C62032F1C873}";
+}
 <div class="sticky" data-sticky data-anchor="content">
     <h4>@Html.Sitecore().Field("Header")</h4>
-    @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = Model.Item.ID, Parameters = "Vertical=0&Menu=0" })
+    @Html.Sitecore().Rendering(menuRenderingId, new { Datasource = Model.Item.ID, Parameters = "Vertical=0&Menu=0" })
 </div>

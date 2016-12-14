@@ -183,7 +183,7 @@
   <ItemGroup>
     <Content Include="App_Config\Include\Sites.config" />
     <None Include="Properties\PublishProfiles\Local wwwroot.pubxml" />
-    <Content Include="Views\Menu\Menu.cshtml" />
+    <Content Include="Views\Navigation\Menu.cshtml" />
     <Content Include="Views\Header\Header.cshtml" />
     <Content Include="Views\Carousel\Carousel.cshtml" />
     <Content Include="Views\Content\ContentHeaderH2.cshtml" />

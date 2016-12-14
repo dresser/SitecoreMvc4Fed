@@ -1,6 +1,7 @@
 ﻿@model Sitecore.Mvc.Presentation.RenderingModel
 <div class="top-bar">
     @{ 
+        var menuRenderingId = "{11A66AC3-12D7-494D-A87C-C62032F1C873}";
         var db = Model.Item.Database;
         var query = @"fast:/ancestor::*[@@templatename='Website']//*[@@templatename='SettingsFolder']//*[@@templatename='Header']";
         var siteLogoMenuItemId = "";
@@ -15,9 +16,9 @@
         }
     }
     <div class="top-bar-left">
-        @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = siteLogoMenuItemId, Parameters = "Vertical=0&Menu=1" })
+        @Html.Sitecore().Rendering(menuRenderingId, new { Datasource = siteLogoMenuItemId, Parameters = "Vertical=0&Menu=1" })
     </div>
     <div class="top-bar-right">
-        @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = secondaryMenuItemId, Parameters = "Vertical=0&Menu=1" })
+        @Html.Sitecore().Rendering(menuRenderingId, new { Datasource = secondaryMenuItemId, Parameters = "Vertical=0&Menu=1" })
     </div>
 </div>

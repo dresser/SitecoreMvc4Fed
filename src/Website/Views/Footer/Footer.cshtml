@@ -1,6 +1,7 @@
 ﻿@model Sitecore.Mvc.Presentation.RenderingModel
 <div class="callout large secondary">
     @{ 
+        var menuRenderingId = "{11A66AC3-12D7-494D-A87C-C62032F1C873}";
         var db = Model.Item.Database;
         var query = @"fast:/ancestor::*[@@templatename='Website']//*[@@templatename='SettingsFolder']//*[@@templatename='Footer']";
         var footerMenu1ItemId = "";
@@ -20,10 +21,10 @@
             <p>@Html.Sitecore().Field("Description", footerItem)</p>
         </div>
         <div class="large-3 large-offset-2 columns">
-            @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = footerMenu1ItemId, Parameters = "Vertical=1&Menu=1" })
+            @Html.Sitecore().Rendering(menuRenderingId, new { Datasource = footerMenu1ItemId, Parameters = "Vertical=1&Menu=1" })
         </div>
         <div class="large-3 columns">
-            @Html.Sitecore().ViewRendering("/Views/Menu/Menu.cshtml", new { Datasource = footerMenu2ItemId, Parameters = "Vertical=1&Menu=1" })
+            @Html.Sitecore().Rendering(menuRenderingId, new { Datasource = footerMenu2ItemId, Parameters = "Vertical=1&Menu=1" })
         </div>
     </div>
 </div>
