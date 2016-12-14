@@ -2,35 +2,17 @@
 @model Sitecore.Mvc.Presentation.RenderingModel
 <div class="tabs-panel @(Model.Rendering.Properties["IsActive"] == "True" ? "is-active" : "")" id="@Model.Rendering.Properties["PanelId"]">
     <div class="row medium-up-3 large-up-5">
-        <div class="column">
-            <img class="thumbnail" src="http://placehold.it/350x200">
-            <h5>Other Product <small>$22</small></h5>
-            <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-            <a href="#" class="button hollow tiny expanded">Buy Now</a>
-        </div>
-        <div class="column">
-            <img class="thumbnail" src="http://placehold.it/350x200">
-            <h5>Other Product <small>$22</small></h5>
-            <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-            <a href="#" class="button hollow tiny expanded">Buy Now</a>
-        </div>
-        <div class="column">
-            <img class="thumbnail" src="http://placehold.it/350x200">
-            <h5>Other Product <small>$22</small></h5>
-            <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-            <a href="#" class="button hollow tiny expanded">Buy Now</a>
-        </div>
-        <div class="column">
-            <img class="thumbnail" src="http://placehold.it/350x200">
-            <h5>Other Product <small>$22</small></h5>
-            <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-            <a href="#" class="button hollow tiny expanded">Buy Now</a>
-        </div>
-        <div class="column">
-            <img class="thumbnail" src="http://placehold.it/350x200">
-            <h5>Other Product <small>$22</small></h5>
-            <p>In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam.</p>
-            <a href="#" class="button hollow tiny expanded">Buy Now</a>
-        </div>
+        @{ 
+            var relatedProductItems = Model.PageItem.Parent.Axes.SelectItems(@"./*[@@templatename='ProductPage' and @@id != '" + Model.PageItem.ID + "']").Take(5) ?? new Sitecore.Data.Items.Item[] { };
+        }
+        @foreach (var product in relatedProductItems)
+        {
+            <div class="column">
+                @Html.Sitecore().Field("MainImage", product, new { @class = "thumbnail", w = 350, h = 200, @as = 1, bc = "white" })
+                <h5>@Html.Sitecore().Field("Name", product) <small>$ @Html.Sitecore().Field("Price", product)</small></h5>
+                <p>@Html.Sitecore().Field("Description", product)</p>
+                <a href="@Sitecore.Links.LinkManager.GetItemUrl(product)" class="button hollow tiny expanded">Buy Now</a>
+            </div>
+        }
     </div>
 </div>
