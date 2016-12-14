@@ -1,0 +1,23 @@
+﻿@using Sitecore.Data.Items
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="row columns">
+    <nav aria-label="You are here:" role="navigation">
+        @{ 
+            var breadcrumbItems = new List<Item>();
+            var currentItem = Model.PageItem;
+            while (currentItem.Parent != null && currentItem.Parent.TemplateName != "Website")
+            {
+                currentItem = currentItem.Parent;
+                breadcrumbItems.Add(currentItem);
+            }
+            breadcrumbItems.Reverse();
+        }
+        <ul class="breadcrumbs">
+            @foreach (var item in breadcrumbItems)
+            {
+                <li><a href="@Sitecore.Links.LinkManager.GetItemUrl(item)">@Html.Sitecore().Field("NavigationTitle", item)</a></li>
+            }
+            <li class="disabled">@Html.Sitecore().Field("NavigationTitle", Model.PageItem)</li>
+        </ul>
+    </nav>
+</div>
