@@ -1,14 +1,14 @@
 ----item----
 version: 1
-id: {9826391E-6931-4F5B-B140-661681F9D341}
+id: {1C66095F-7C4F-47D6-A6E9-0C01F1EB4951}
 database: master
-path: /sitecore/templates/Website/ContentTypes/Dictionary/DictionaryRoot/__Standard Values
-parent: {C97EF8D7-9302-4226-8954-B86388A8BC62}
+path: /sitecore/templates/Foundation/Dictionary/DictionaryFolder/__Standard Values
+parent: {51CA07B0-BBCD-4B52-9752-CC243E155B31}
 name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {C97EF8D7-9302-4226-8954-B86388A8BC62}
-templatekey: DictionaryRoot
-created: 20161212T084940:636171293800270000
+template: {51CA07B0-BBCD-4B52-9752-CC243E155B31}
+templatekey: DictionaryFolder
+created: 20161212T085009Z
 
 ----field----
 field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
@@ -16,11 +16,11 @@ name: __Masters
 key: __masters
 content-length: 38
 
-{51CA07B0-BBCD-4B52-9752-CC243E155B31}
+{052C4579-EFB4-42E2-B704-DF9F8B6406A9}
 ----version----
 language: en
 version: 1
-revision: 70984738-4ccd-4542-8bf3-c0cedc29b005
+revision: fa1ea49d-666d-4545-9494-125d391e17c5
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -35,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20161212T084940Z
+20161212T085009Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,18 +49,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-70984738-4ccd-4542-8bf3-c0cedc29b005
+fa1ea49d-666d-4545-9494-125d391e17c5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161212T084958Z
+20170102T183841Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

@@ -1,6 +1,6 @@
 ----item----
 version: 1
-id: {97817BF4-C2CB-4515-98E8-F77C4784D85E}
+id: {B118E526-4C41-4F73-9F58-7535431DDBA8}
 database: master
 path: /sitecore/content/Mvc4Fed/Settings/Dictionary/ReviewsTab/MyReviewLabel
 parent: {CDAC63EC-ABA5-4F41-ACF8-EF8A97D7F16C}
@@ -8,10 +8,10 @@ name: MyReviewLabel
 master: {00000000-0000-0000-0000-000000000000}
 template: {052C4579-EFB4-42E2-B704-DF9F8B6406A9}
 templatekey: DictionaryEntry
-created: 20161212T085437:636171296773330000
+created: 20170102T202025Z
 
 ----field----
-field: {5F4ADBC3-C55E-4CA5-85B1-65FD4F5D5545}
+field: {A1F13C8A-2F7B-4A5E-A5D1-69031013BE56}
 name: Key
 key: key
 content-length: 13
@@ -20,10 +20,10 @@ MyReviewLabel
 ----version----
 language: en
 version: 1
-revision: c9065aba-4a8c-4401-a300-46da3232969d
+revision: a75e40ad-318a-4e0d-84a1-06892e7e7bba
 
 ----field----
-field: {DD5ED0F8-A9C1-4200-BC8C-6E4474349549}
+field: {FEE02FF0-FE6E-4BA5-8374-C58F07B1B658}
 name: Phrase
 key: phrase
 content-length: 9
@@ -35,25 +35,25 @@ name: __Created
 key: __created
 content-length: 16
 
-20161212T085437Z
+20170102T202025Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-c9065aba-4a8c-4401-a300-46da3232969d
+a75e40ad-318a-4e0d-84a1-06892e7e7bba
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161212T222858Z
+20170102T202041Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin
