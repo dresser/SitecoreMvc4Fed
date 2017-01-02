@@ -8,12 +8,12 @@ name: Green Wig
 master: {00000000-0000-0000-0000-000000000000}
 template: {74C38A17-A2D2-42DC-8973-B66B7C19B88B}
 templatekey: ProductPage
-created: 20161205T215753:636165718735070000
+created: 20161205T215753Z
 
 ----version----
 language: en
 version: 1
-revision: 263e5a64-f758-4b81-8d03-40aa894021f4
+revision: fdbd2a6c-97aa-47da-af79-f96918b216c4
 
 ----field----
 field: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
@@ -35,7 +35,7 @@ name: MainImage
 key: mainimage
 content-length: 175
 
-<image mediapath="" alt="Glam Wig Neon Green" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{DC24FEDB-F456-4AC8-8FC1-8455D3B57922}" />
+<image mediapath="" alt="Glam Wig Neon Green" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{76587D20-421E-451F-9472-D8CE5F9D8DAD}" />
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -49,18 +49,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-263e5a64-f758-4b81-8d03-40aa894021f4
+fdbd2a6c-97aa-47da-af79-f96918b216c4
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161205T215819Z
+20170102T214138Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

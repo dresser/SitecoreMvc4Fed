@@ -8,13 +8,27 @@ name: Sensible Wigs
 master: {00000000-0000-0000-0000-000000000000}
 template: {8FA74C76-FF6C-47AD-953F-767E4821AB54}
 templatekey: ProductCategoryPage
-created: 20161205T213032:636165702326570000
+created: 20161205T213032Z
 
 ----version----
 language: en
 version: 1
-revision: 9a54adb7-7434-46a1-a89b-202cb9fb1ca9
+revision: 2e025cdb-d8b9-4051-b5cc-a606b54f9fa2
 
+----field----
+field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
+name: Header
+key: header
+content-length: 13
+
+Sensible Wigs
+----field----
+field: {B0915BB3-AC0A-4C02-B6F8-15BC2C7C4FA4}
+name: SubHeader
+key: subheader
+content-length: 29
+
+Normal wigs for normal people
 ----field----
 field: {D920390F-0525-42CA-A336-A4581A362886}
 name: NavigationTitle
@@ -35,18 +49,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9a54adb7-7434-46a1-a89b-202cb9fb1ca9
+2e025cdb-d8b9-4051-b5cc-a606b54f9fa2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161214T181631Z
+20170102T214310Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

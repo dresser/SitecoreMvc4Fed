@@ -8,13 +8,27 @@ name: Funny Wigs
 master: {00000000-0000-0000-0000-000000000000}
 template: {8FA74C76-FF6C-47AD-953F-767E4821AB54}
 templatekey: ProductCategoryPage
-created: 20161201T230004:636162300042730000
+created: 20161201T230004Z
 
 ----version----
 language: en
 version: 1
-revision: baa90987-fd78-44bc-bc00-a4268197c0a0
+revision: 53e377b7-ae5a-4a14-9eb1-41ea964d6e15
 
+----field----
+field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
+name: Header
+key: header
+content-length: 10
+
+Funny Wigs
+----field----
+field: {B0915BB3-AC0A-4C02-B6F8-15BC2C7C4FA4}
+name: SubHeader
+key: subheader
+content-length: 43
+
+Find all the funniest wigs you've ever seen
 ----field----
 field: {D920390F-0525-42CA-A336-A4581A362886}
 name: NavigationTitle
@@ -35,18 +49,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-baa90987-fd78-44bc-bc00-a4268197c0a0
+53e377b7-ae5a-4a14-9eb1-41ea964d6e15
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161214T181516Z
+20170102T213119Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

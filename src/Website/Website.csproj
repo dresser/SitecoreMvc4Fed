@@ -204,6 +204,7 @@
     <Content Include="Views\Reviews\ReviewsTab.cshtml" />
     <Content Include="Views\Product\RelatedProductsTab.cshtml" />
     <Content Include="Views\Navigation\Breadcrumb.cshtml" />
+    <Content Include="Views\Product\ProductCategoryList.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
