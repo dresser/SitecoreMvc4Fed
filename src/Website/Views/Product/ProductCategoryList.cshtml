@@ -8,6 +8,5 @@
     @foreach (var productItem in productItems)
     {
         @Html.Sitecore().ViewRendering("/Views/Product/ProductTeaser.cshtml", new { Datasource = productItem.ID, Parameters = "Expanded=1" })
-        @*@Html.Partial("~/Views/Product/ProductTeaser.cshtml", productItems[i])*@
     }
 </div>
