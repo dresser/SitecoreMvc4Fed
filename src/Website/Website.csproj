@@ -33,6 +33,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>6</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -205,6 +206,8 @@
     <Content Include="Views\Product\RelatedProductsTab.cshtml" />
     <Content Include="Views\Navigation\Breadcrumb.cshtml" />
     <Content Include="Views\Product\ProductCategoryList.cshtml" />
+    <Content Include="Views\Repeater\Repeater.cshtml" />
+    <Content Include="Views\Structures\Row Su1 Mu2 Lu3.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
