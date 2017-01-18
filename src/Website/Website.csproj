@@ -202,7 +202,7 @@
     <Content Include="Views\Product\ProductImages.cshtml" />
     <Content Include="Views\Product\ProductDetail.cshtml" />
     <Content Include="Views\Structures\TabContainer.cshtml" />
-    <Content Include="Views\Reviews\ReviewsTab.cshtml" />
+    <Content Include="Views\Product\ReviewsTab.cshtml" />
     <Content Include="Views\Product\RelatedProductsTab.cshtml" />
     <Content Include="Views\Navigation\Breadcrumb.cshtml" />
     <Content Include="Views\Product\ProductCategoryList.cshtml" />

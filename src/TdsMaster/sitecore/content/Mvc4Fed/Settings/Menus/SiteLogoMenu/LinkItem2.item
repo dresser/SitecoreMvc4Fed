@@ -8,7 +8,7 @@ name: LinkItem2
 master: {6DF059BA-911C-45F1-BFDF-8565BB0C6DE0}
 template: {5EC559EE-44BE-4C60-9867-9CAF8A276D45}
 templatekey: LinkItem
-created: 20161127T113120:636158430807070000
+created: 20161127T113120Z
 
 ----field----
 field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
@@ -20,15 +20,15 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 2e099669-f202-404f-bcec-cb0890b66028
+revision: 20b2c873-034f-4ed8-bb52-5e4ce0931648
 
 ----field----
 field: {1429C059-13A2-42A3-81BD-7AB1311704DC}
 name: Link
 key: link
-content-length: 140
+content-length: 138
 
-<link text="" linktype="internal" url="" anchor="" title="" class="" querystring="" target="" id="{5D16B629-BEA8-4127-B893-600E75FCBCC3}" />
+<link text="About" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{9D1A9AC7-A9C8-4CEE-806D-E08FE7013D92}" />
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2e099669-f202-404f-bcec-cb0890b66028
+20b2c873-034f-4ed8-bb52-5e4ce0931648
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161127T114551Z
+20170118T212731Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

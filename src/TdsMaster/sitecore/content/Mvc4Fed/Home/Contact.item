@@ -8,12 +8,19 @@ name: Contact
 master: {00000000-0000-0000-0000-000000000000}
 template: {D9500861-DE54-4917-9D92-15D8E55F4DBE}
 templatekey: FreeTextPage
-created: 20161207T122128:636167100880100000
+created: 20161207T122128Z
 
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
 ----version----
 language: en
 version: 1
-revision: 1bbcf7af-9fac-4869-a223-3621b6f9c2b2
+revision: 03b08ae1-aad1-48cf-98e0-2e07996e2340
 
 ----field----
 field: {D920390F-0525-42CA-A336-A4581A362886}
@@ -35,18 +42,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1bbcf7af-9fac-4869-a223-3621b6f9c2b2
+03b08ae1-aad1-48cf-98e0-2e07996e2340
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161214T181504Z
+20170118T213145Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

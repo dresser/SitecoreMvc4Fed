@@ -10,10 +10,17 @@ template: {8FA74C76-FF6C-47AD-953F-767E4821AB54}
 templatekey: ProductCategoryPage
 created: 20161201T230004Z
 
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
 ----version----
 language: en
 version: 1
-revision: 53e377b7-ae5a-4a14-9eb1-41ea964d6e15
+revision: da08c418-c8bd-4672-87f7-73bba23a4ab2
 
 ----field----
 field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
@@ -49,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-53e377b7-ae5a-4a14-9eb1-41ea964d6e15
+da08c418-c8bd-4672-87f7-73bba23a4ab2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170102T213119Z
+20170118T213145Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

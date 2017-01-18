@@ -8,13 +8,20 @@ name: Bald Wig
 master: {00000000-0000-0000-0000-000000000000}
 template: {74C38A17-A2D2-42DC-8973-B66B7C19B88B}
 templatekey: ProductPage
-created: 20161204T210218:636164821384300000
+created: 20161204T210218Z
 
 ----version----
 language: en
 version: 1
-revision: 186d1263-d784-462b-b4f2-8ebe5d30f6fe
+revision: 174f2650-acbc-4a7b-b78b-60c6dba0e389
 
+----field----
+field: {D920390F-0525-42CA-A336-A4581A362886}
+name: NavigationTitle
+key: navigationtitle
+content-length: 8
+
+Bald Wig
 ----field----
 field: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
 name: Name
@@ -63,18 +70,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-186d1263-d784-462b-b4f2-8ebe5d30f6fe
+174f2650-acbc-4a7b-b78b-60c6dba0e389
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161204T210321Z
+20170118T212904Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin
