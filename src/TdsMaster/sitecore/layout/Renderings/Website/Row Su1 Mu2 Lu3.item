@@ -16,14 +16,14 @@ name: Path
 key: path
 content-length: 40
 
-/Views/Structures/Row Su1 Mu2 Lu3.cshtml
+/Views/Containers/Row Su1 Mu2 Lu3.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -34,7 +34,7 @@ BusinessV2/16x16/table_row.png
 ----version----
 language: en
 version: 1
-revision: ebf6b96a-7700-45c9-8492-5ce38807def2
+revision: e388cfbe-be28-4f49-9ba1-d67d6a35d4e2
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -63,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ebf6b96a-7700-45c9-8492-5ce38807def2
+e388cfbe-be28-4f49-9ba1-d67d6a35d4e2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170105T184957Z
+20170118T230025Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

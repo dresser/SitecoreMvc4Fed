@@ -193,21 +193,21 @@
     <Content Include="Views\Callout\Callout.cshtml" />
     <Content Include="Views\Product\ProductList.cshtml" />
     <Content Include="Views\Product\TopProducts.cshtml" />
-    <Content Include="Views\Structures\Row.cshtml" />
+    <Content Include="Views\Containers\Row.cshtml" />
     <Content Include="Views\Footer\Footer.cshtml" />
     <Content Include="Views\Content\PageHeader.cshtml" />
-    <Content Include="Views\Structures\RowContent.cshtml" />
+    <Content Include="Views\Containers\RowContent.cshtml" />
     <Content Include="Views\Content\PageContent.cshtml" />
     <Content Include="Views\Content\SidebarWidget.cshtml" />
     <Content Include="Views\Product\ProductImages.cshtml" />
     <Content Include="Views\Product\ProductDetail.cshtml" />
-    <Content Include="Views\Structures\TabContainer.cshtml" />
+    <Content Include="Views\Containers\TabContainer.cshtml" />
     <Content Include="Views\Product\ReviewsTab.cshtml" />
     <Content Include="Views\Product\RelatedProductsTab.cshtml" />
     <Content Include="Views\Navigation\Breadcrumb.cshtml" />
     <Content Include="Views\Product\ProductCategoryList.cshtml" />
-    <Content Include="Views\Repeater\Repeater.cshtml" />
-    <Content Include="Views\Structures\Row Su1 Mu2 Lu3.cshtml" />
+    <Content Include="Views\Containers\Repeater.cshtml" />
+    <Content Include="Views\Containers\Row Su1 Mu2 Lu3.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -8,7 +8,7 @@ name: TabContainer
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
-created: 20161211T121315:636170551953630000
+created: 20161211T121315Z
 
 ----field----
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
@@ -16,7 +16,7 @@ name: Path
 key: path
 content-length: 37
 
-/Views/Structures/TabContainer.cshtml
+/Views/Containers/TabContainer.cshtml
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
@@ -41,7 +41,7 @@ Office/16x16/tab_pane.png
 ----version----
 language: en
 version: 1
-revision: 56cf297d-baad-4cec-9cd9-45fef709fe91
+revision: c2e4038d-af5b-4b49-887e-3e3a42f2ea13
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-56cf297d-baad-4cec-9cd9-45fef709fe91
+c2e4038d-af5b-4b49-887e-3e3a42f2ea13
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161212T093756Z
+20170118T230212Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

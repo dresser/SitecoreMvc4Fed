@@ -8,7 +8,7 @@ name: Row
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
-created: 20161205T154334:636165494140400000
+created: 20161205T154334Z
 
 ----field----
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
@@ -16,7 +16,7 @@ name: Path
 key: path
 content-length: 28
 
-/Views/Structures/Row.cshtml
+/Views/Containers/Row.cshtml
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
@@ -28,9 +28,9 @@ content-length: 38
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -41,7 +41,7 @@ BusinessV2/16x16/table_row.png
 ----version----
 language: en
 version: 1
-revision: cf32862f-2522-4222-9011-4fa44ee20a99
+revision: cf9ac3a7-6046-4999-b389-afa07f14f636
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-cf32862f-2522-4222-9011-4fa44ee20a99
+cf9ac3a7-6046-4999-b389-afa07f14f636
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161205T172808Z
+20170118T230106Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

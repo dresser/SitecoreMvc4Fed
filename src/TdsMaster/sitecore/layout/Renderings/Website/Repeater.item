@@ -14,9 +14,9 @@ created: 20170105T182023Z
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 31
+content-length: 33
 
-/Views/Repeater/Repeater.cshtml
+/Views/Containers/Repeater.cshtml
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
@@ -28,9 +28,9 @@ content-length: 38
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -41,7 +41,7 @@ Office/16x16/elements2.png
 ----version----
 language: en
 version: 1
-revision: 7278d90b-743d-4071-be71-b6e9085aa963
+revision: a9777d53-03ba-4ab9-8d90-fd722a08bbae
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -70,14 +70,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-7278d90b-743d-4071-be71-b6e9085aa963
+a9777d53-03ba-4ab9-8d90-fd722a08bbae
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170105T213709Z
+20170118T225748Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
