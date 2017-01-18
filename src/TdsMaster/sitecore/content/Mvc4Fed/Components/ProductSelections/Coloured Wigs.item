@@ -8,7 +8,7 @@ name: Coloured Wigs
 master: {00000000-0000-0000-0000-000000000000}
 template: {D78F5772-ABAD-41C4-9EEA-D9FF4CD4C6D6}
 templatekey: TopProducts
-created: 20161205T170322:636165542021700000
+created: 20161205T170322Z
 
 ----version----
 language: en
@@ -22,13 +22,6 @@ key: header
 content-length: 13
 
 Coloured Wigs
-----field----
-field: {5149DDD9-8C38-47F9-AEDE-5ED968D3E757}
-name: SelectedProducts
-key: selectedproducts
-content-length: 116
-
-{453B2E51-90F6-4FD8-94A6-2A98777603CD}|{C3B70312-1D47-4954-9D7A-D3E6BF937F42}|{F5522292-0874-4475-8005-B8590813574A}
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner

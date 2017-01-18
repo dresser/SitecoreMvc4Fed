@@ -1,41 +1,41 @@
 ----item----
 version: 1
-id: {F5084162-11BB-4566-B5DB-ECD35F1476E2}
+id: {5F95A204-2580-4855-AA9C-2C2A1A92039E}
 database: master
-path: /sitecore/templates/Website/ContentTypes/Product/ProductSelection
-parent: {170B0A39-514A-4847-ABE4-38E4AC094F17}
-name: ProductSelection
+path: /sitecore/templates/Website/RenderingParameters/MenuParameters/__Standard Values
+parent: {CB8E0439-0952-45A0-86D2-C942E088BD6F}
+name: __Standard Values
 master: {00000000-0000-0000-0000-000000000000}
-template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
-templatekey: Template
-created: 20161201T202128Z
+template: {CB8E0439-0952-45A0-86D2-C942E088BD6F}
+templatekey: MenuParameters
+created: 20161209T103709Z
 
-----field----
-field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
-name: __Base template
-key: __base template
-content-length: 38
-
-{1930BBEB-7805-471A-A3BE-4858AC7CF696}
-----field----
-field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
-name: __Icon
-key: __icon
-content-length: 26
-
-Office/16x16/elements4.png
 ----version----
 language: en
 version: 1
-revision: 13c6daf5-6b28-462b-a525-c86dadecc6cf
+revision: 602bcf02-3ef2-4701-8ef9-022a4cad53ef
 
+----field----
+field: {C8562A87-D462-4AC8-94F4-2EDD4EF12491}
+name: Menu
+key: menu
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20161201T202128Z
+20161209T103709Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -49,18 +49,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-13c6daf5-6b28-462b-a525-c86dadecc6cf
+602bcf02-3ef2-4701-8ef9-022a4cad53ef
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170118T232004Z
+20161209T103746Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
