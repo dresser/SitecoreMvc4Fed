@@ -23,6 +23,13 @@ content-length: 12
 
 Regular Wigs
 ----field----
+field: {5149DDD9-8C38-47F9-AEDE-5ED968D3E757}
+name: SelectedProducts
+key: selectedproducts
+content-length: 116
+
+{7DD64A06-3BE3-4D49-BB72-A9D3E90D5A58}|{CCAF2AB4-DBA5-43ED-9E8A-98541CF22DEC}|{D4CD0467-BB2F-40A0-B51D-07384319B495}
+----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner

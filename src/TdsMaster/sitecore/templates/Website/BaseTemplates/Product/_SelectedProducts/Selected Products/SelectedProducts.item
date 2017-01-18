@@ -2,7 +2,7 @@
 version: 1
 id: {5149DDD9-8C38-47F9-AEDE-5ED968D3E757}
 database: master
-path: /sitecore/templates/Website/ContentTypes/Product/ProductSelection/Selected Products/SelectedProducts
+path: /sitecore/templates/Website/BaseTemplates/Product/_SelectedProducts/Selected Products/SelectedProducts
 parent: {B88E671A-ED49-4569-A7F3-1DA3925D719E}
 name: SelectedProducts
 master: {00000000-0000-0000-0000-000000000000}
@@ -27,7 +27,7 @@ content-length: 3
 ----version----
 language: en
 version: 1
-revision: 5e6e97a2-4f85-4f9b-a189-9ccaf770caf4
+revision: 3b93a62c-f043-4a54-bc50-c39e00648404
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,14 +42,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5e6e97a2-4f85-4f9b-a189-9ccaf770caf4
+3b93a62c-f043-4a54-bc50-c39e00648404
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170118T232001Z
+20170118T234207Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

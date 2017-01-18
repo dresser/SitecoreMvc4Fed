@@ -23,6 +23,13 @@ content-length: 9
 
 Joke Wigs
 ----field----
+field: {5149DDD9-8C38-47F9-AEDE-5ED968D3E757}
+name: SelectedProducts
+key: selectedproducts
+content-length: 116
+
+{749105EF-5BFA-4DDE-B266-0DC2A8CE71EB}|{A7B8657C-584F-42F0-8E14-4B5B3E0868C9}|{1CF8F894-BFC6-44FD-8C6A-0BC544354E60}
+----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner
