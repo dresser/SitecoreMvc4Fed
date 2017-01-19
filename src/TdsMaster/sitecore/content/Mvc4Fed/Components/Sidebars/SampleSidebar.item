@@ -8,7 +8,7 @@ name: SampleSidebar
 master: {00000000-0000-0000-0000-000000000000}
 template: {66C047DF-6C0F-43F7-ACD9-390546219967}
 templatekey: SidebarWidget
-created: 20161208T234227:636168373472030000
+created: 20161208T234227Z
 
 ----version----
 language: en
@@ -17,8 +17,8 @@ revision: c80239c0-11d8-4c54-b6c0-d842db2e77c9
 
 ----field----
 field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
-name: Header
-key: header
+name: Title
+key: title
 content-length: 10
 
 Categories

@@ -24,15 +24,15 @@ revision: 7658ed5d-f4d5-4a16-a0f6-a3357c20ab74
 
 ----field----
 field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
-name: Header
-key: header
+name: Title
+key: title
 content-length: 13
 
 Sensible Wigs
 ----field----
 field: {B0915BB3-AC0A-4C02-B6F8-15BC2C7C4FA4}
-name: SubHeader
-key: subheader
+name: SubTitle
+key: subtitle
 content-length: 29
 
 Normal wigs for normal people

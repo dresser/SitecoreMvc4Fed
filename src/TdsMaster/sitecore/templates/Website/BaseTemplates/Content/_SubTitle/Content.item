@@ -1,26 +1,19 @@
 ----item----
 version: 1
-id: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
+id: {946037D9-9461-46B8-91DF-2BF6E3BB33BB}
 database: master
-path: /sitecore/templates/Website/BaseTemplates/Content/_Header/Content/Header
-parent: {AC96CDBA-CCDA-40BF-ADA6-440CAB9D2593}
-name: Header
+path: /sitecore/templates/Website/BaseTemplates/Content/_SubTitle/Content
+parent: {1DC8ADCA-F1AB-49BE-AD2E-FAC0A0CF8130}
+name: Content
 master: {00000000-0000-0000-0000-000000000000}
-template: {455A3E98-A627-4B40-8035-E683A0331AC7}
-templatekey: Template field
-created: 20161129T234036Z
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
+created: 20161208T143007Z
 
-----field----
-field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
-name: Type
-key: type
-content-length: 16
-
-Single-Line Text
 ----version----
 language: en
 version: 1
-revision: 5328ecee-97bf-4cec-925b-413e82003303
+revision: 8d09a857-ddf6-41ae-af57-1403e26e5d29
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -28,25 +21,32 @@ name: __Created
 key: __created
 content-length: 16
 
-20161129T234036Z
+20161208T143007Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-5328ecee-97bf-4cec-925b-413e82003303
+8d09a857-ddf6-41ae-af57-1403e26e5d29
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161208T133734Z
+20170119T223922Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin

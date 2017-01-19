@@ -602,27 +602,27 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Website\BaseTemplates\Content\_Header.item">
+    <SitecoreItem Include="sitecore\templates\Website\BaseTemplates\Content\_SubTitle.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Website\BaseTemplates\Content\_Header\Content.item">
+    <SitecoreItem Include="sitecore\templates\Website\BaseTemplates\Content\_SubTitle\Content.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Website\BaseTemplates\Content\_Header\Content\Header.item">
+    <SitecoreItem Include="sitecore\templates\Website\BaseTemplates\Content\_SubTitle\Content\SubTitle.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Website\BaseTemplates\Content\_SubHeader.item">
+    <SitecoreItem Include="sitecore\templates\Website\BaseTemplates\Content\_Title.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Website\BaseTemplates\Content\_SubHeader\Content.item">
+    <SitecoreItem Include="sitecore\templates\Website\BaseTemplates\Content\_Title\Content.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Website\BaseTemplates\Content\_SubHeader\Content\SubHeader.item">
+    <SitecoreItem Include="sitecore\templates\Website\BaseTemplates\Content\_Title\Content\Title.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

@@ -38,18 +38,11 @@ content-length: 26
 This is the content header
 ----field----
 field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
-name: Header
-key: header
+name: Title
+key: title
 content-length: 8
 
 About Us
-----field----
-field: {B0915BB3-AC0A-4C02-B6F8-15BC2C7C4FA4}
-name: SubHeader
-key: subheader
-content-length: 16
-
-Why we love wigs
 ----field----
 field: {E8F8AD17-13A8-4213-9DB9-61DB408E828D}
 name: ContentDate
@@ -57,6 +50,13 @@ key: contentdate
 content-length: 15
 
 20161214T000000
+----field----
+field: {B0915BB3-AC0A-4C02-B6F8-15BC2C7C4FA4}
+name: SubTitle
+key: subtitle
+content-length: 16
+
+Why we love wigs
 ----field----
 field: {D36E87D8-CA91-48EE-8558-D12289BEEE5B}
 name: ContentImage
