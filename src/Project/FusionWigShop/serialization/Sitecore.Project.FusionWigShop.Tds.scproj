@@ -7,9 +7,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ab3e8ebf-abc1-441a-b774-d6794ae03291</ProjectGuid>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-    <SourceWebPhysicalPath>..\Website</SourceWebPhysicalPath>
-    <SourceWebProject>{3794b240-15e6-44f8-bd07-2259cd72889b}|Website\Website.csproj</SourceWebProject>
-    <SourceWebVirtualPath>/Website.csproj</SourceWebVirtualPath>
+    <SourceWebPhysicalPath>..\code</SourceWebPhysicalPath>
+    <SourceWebProject>{3794b240-15e6-44f8-bd07-2259cd72889b}|src\Project\FusionWigShop\code\Sitecore.Project.FusionWigShop.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/Sitecore.Project.FusionWigShop.csproj</SourceWebVirtualPath>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <EnableUpdateable>true</EnableUpdateable>
     <UseMerge>true</UseMerge>
@@ -48,9 +48,9 @@
     </AssemblyAttributes>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Website\Website.csproj">
+    <ProjectReference Include="..\code\Sitecore.Project.FusionWigShop.csproj">
       <Project>{3794b240-15e6-44f8-bd07-2259cd72889b}</Project>
-      <Name>Website</Name>
+      <Name>Sitecore.Project.FusionWigShop</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
