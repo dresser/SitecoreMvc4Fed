@@ -8,7 +8,7 @@ name: Home
 master: {00000000-0000-0000-0000-000000000000}
 template: {7495BFBB-160F-4F43-84B7-C72B78B83338}
 templatekey: HomePage
-created: 20161023T215449:636128564891630000
+created: 20161023T205449Z
 
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
@@ -27,7 +27,7 @@ content-length: 3423
 ----version----
 language: en
 version: 1
-revision: 6f9b32b7-3786-4cdd-a37c-bf7310276662
+revision: 27d062f4-33be-47b6-a78c-e2db8b983bfd
 
 ----field----
 field: {D920390F-0525-42CA-A336-A4581A362886}
@@ -56,18 +56,25 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6f9b32b7-3786-4cdd-a37c-bf7310276662
+27d062f4-33be-47b6-a78c-e2db8b983bfd
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161214T181410Z
+20170219T211243Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

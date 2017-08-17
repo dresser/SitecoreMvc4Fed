@@ -8,7 +8,7 @@ name: Carousel
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
-created: 20161127T122411:636158462515700000
+created: 20161127T122411Z
 
 ----field----
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
@@ -21,16 +21,16 @@ content-length: 31
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
 key: open properties after add
-content-length: 1
+content-length: 0
 
--
+
 ----field----
 field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
 name: Datasource Template
 key: datasource template
-content-length: 56
+content-length: 0
 
-/sitecore/templates/Website/Components/Carousel/Carousel
+
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -41,7 +41,7 @@ Office/16x16/window_width.png
 ----version----
 language: en
 version: 1
-revision: 86561e9a-1765-4a5a-ada4-4bcc55e7ceab
+revision: 53623feb-4766-45cc-9175-c37094f393bc
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,18 +56,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-86561e9a-1765-4a5a-ada4-4bcc55e7ceab
+53623feb-4766-45cc-9175-c37094f393bc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161127T195240Z
+20170219T211541Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\admin
+sitecore\Admin
