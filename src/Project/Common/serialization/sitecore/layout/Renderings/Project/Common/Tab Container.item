@@ -1,29 +1,29 @@
 ----item----
 version: 1
-id: {439D9B5D-67C7-4F2C-B8DF-5CC6CD59BAFD}
+id: {AB3289C1-038D-4B9A-A8FD-39FB65D63EC2}
 database: master
-path: /sitecore/layout/Renderings/Feature/Store/ProductTeaser
-parent: {AC431A64-6F08-47EF-8DA6-9BA68570CB94}
-name: ProductTeaser
+path: /sitecore/layout/Renderings/Project/Common/Tab Container
+parent: {E4143F65-E2CA-4328-8677-B31B6C4DDB5F}
+name: Tab Container
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
-created: 20161130T225817Z
+created: 20161211T121315Z
 
 ----field----
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 33
+content-length: 44
 
-/Views/Store/ProductTeaser.cshtml
+/Views/Common/Sublayouts/TabContainer.cshtml
 ----field----
 field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
 name: Parameters Template
 key: parameters template
 content-length: 38
 
-{BC1C9477-C2B9-4F37-B3DF-EB3162765560}
+{342C765B-1D6E-41C2-BB4D-E9B84338FF07}
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
@@ -32,23 +32,16 @@ content-length: 0
 
 
 ----field----
-field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
-name: Datasource Template
-key: datasource template
-content-length: 63
-
-/sitecore/templates/Project/FusionWigShop/PageTypes/ProductPage
-----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
 content-length: 25
 
-Apps/16x16/magic-cube.png
+Office/16x16/tab_pane.png
 ----version----
 language: en
 version: 1
-revision: 01769d6f-5b74-4c92-a77f-3a4d3fb6def7
+revision: 1fb6f06c-d9c6-4ffa-bd78-3d2f8291cb03
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,21 +49,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20161130T235817Z
+20161211T121315Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-01769d6f-5b74-4c92-a77f-3a4d3fb6def7
+1fb6f06c-d9c6-4ffa-bd78-3d2f8291cb03
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170822T193723Z
+20170827T191900Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

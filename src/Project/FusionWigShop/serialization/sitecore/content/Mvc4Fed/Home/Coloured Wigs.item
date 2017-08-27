@@ -17,17 +17,10 @@ key: __sortorder
 content-length: 3
 
 300
-----field----
-field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
-name: __Renderings
-key: __renderings
-content-length: 796
-
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{D14C8399-2D6E-4EF7-B066-4C852F6EA611}"><p:d /></r><r uid="{C918334C-E180-4B44-B3E5-DA7FC67E66B0}" p:after="r[@uid='{08A62FCA-4853-468F-AD01-91A2D27B1F5A}']" s:id="{7C0FEE03-DD87-4274-82B2-F85F5C20E293}" s:ph="main" /><r uid="{8C2F4475-5E59-4AF2-800F-7D2503367FEE}" p:after="r[@uid='{C918334C-E180-4B44-B3E5-DA7FC67E66B0}']" s:ds="" s:id="{390C4670-0AEA-4981-846B-0255EC6923D5}" s:par="ChildRendering=%7B439D9B5D-67C7-4F2C-B8DF-5CC6CD59BAFD%7D" s:ph="/main/row" /><r uid="{939F30CE-FB27-4704-966C-55F3C7AB6074}" p:after="r[@uid='{8C2F4475-5E59-4AF2-800F-7D2503367FEE}']" s:ds="" s:id="{439D9B5D-67C7-4F2C-B8DF-5CC6CD59BAFD}" s:par="Expanded&amp;Small&amp;Hollow" s:ph="/main/row/child-rendering" /></d></r>
 ----version----
 language: en
 version: 1
-revision: c0775d79-0c92-494e-97f4-c4391d427c4b
+revision: a01ec6ab-ce5a-4f54-a4dd-065e788c70ea
 
 ----field----
 field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
@@ -51,13 +44,6 @@ content-length: 13
 
 Coloured Wigs
 ----field----
-field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
-name: __Final Renderings
-key: __final renderings
-content-length: 202
-
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{8C2F4475-5E59-4AF2-800F-7D2503367FEE}" s:par="ChildRendering={439D9B5D-67C7-4F2C-B8DF-5CC6CD59BAFD}" /></d></r>
-----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -70,21 +56,21 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c0775d79-0c92-494e-97f4-c4391d427c4b
+a01ec6ab-ce5a-4f54-a4dd-065e788c70ea
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170118T213145Z
+20170827T185351Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
 ----field----
 field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
 name: __Lock

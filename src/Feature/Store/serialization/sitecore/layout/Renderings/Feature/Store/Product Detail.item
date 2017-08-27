@@ -1,22 +1,22 @@
 ----item----
 version: 1
-id: {4948DC84-9072-437F-B90F-FE573827373C}
+id: {A80337E7-92D6-4B22-8DA8-BC3374CF0C4A}
 database: master
-path: /sitecore/layout/Renderings/Project/Common/RowContent
-parent: {E4143F65-E2CA-4328-8677-B31B6C4DDB5F}
-name: RowContent
+path: /sitecore/layout/Renderings/Feature/Store/Product Detail
+parent: {AC431A64-6F08-47EF-8DA6-9BA68570CB94}
+name: Product Detail
 master: {00000000-0000-0000-0000-000000000000}
 template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
 templatekey: View rendering
-created: 20161208T153233Z
+created: 20161210T121309Z
 
 ----field----
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 42
+content-length: 33
 
-/Views/Common/Sublayouts/RowContent.cshtml
+/Views/Store/ProductDetail.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
@@ -28,13 +28,13 @@ content-length: 0
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
 key: __icon
-content-length: 22
+content-length: 25
 
-Business/16x16/row.png
+Apps/16x16/magic-cube.png
 ----version----
 language: en
 version: 1
-revision: 2ad1fe3e-55df-4faa-a66b-4e31de61f981
+revision: 441a4df1-ae1a-4d38-8487-19ec249117dc
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,21 +42,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20161208T153233Z
+20161210T121309Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-2ad1fe3e-55df-4faa-a66b-4e31de61f981
+441a4df1-ae1a-4d38-8487-19ec249117dc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170818T214004Z
+20170827T192022Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

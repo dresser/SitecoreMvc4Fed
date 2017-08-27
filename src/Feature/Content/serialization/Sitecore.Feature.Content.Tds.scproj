@@ -78,19 +78,19 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Content\ContentHeaderH2.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Content\Content Header H2.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Content\PageContent.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Content\Page Content.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Content\PageHeader.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Content\Page Header.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Content\SidebarWidget.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Feature\Content\Sidebar Widget.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

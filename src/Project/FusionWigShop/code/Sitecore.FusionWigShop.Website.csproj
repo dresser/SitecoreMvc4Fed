@@ -121,7 +121,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Containers\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Website\Layouts\Standard.cshtml" />
   </ItemGroup>
@@ -130,8 +132,6 @@
     <None Include="Properties\PublishProfiles\Local wwwroot.pubxml" />
     <Content Include="Views\Website\Sublayouts\Header.cshtml" />
     <Content Include="Views\Website\Sublayouts\Footer.cshtml" />
-    <Content Include="Views\Containers\TabContainer.cshtml" />
-    <Content Include="Views\Containers\Repeater.cshtml" />
     <None Include="web.config" />
     <None Include="Views\Web.config" />
   </ItemGroup>
