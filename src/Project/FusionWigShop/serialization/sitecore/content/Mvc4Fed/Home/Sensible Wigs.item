@@ -7,7 +7,7 @@ parent: {5D16B629-BEA8-4127-B893-600E75FCBCC3}
 name: Sensible Wigs
 master: {00000000-0000-0000-0000-000000000000}
 template: {8FA74C76-FF6C-47AD-953F-767E4821AB54}
-templatekey: ProductCategoryPage
+templatekey: Product Category Page
 created: 20161205T213032Z
 
 ----field----
@@ -24,15 +24,15 @@ revision: 7658ed5d-f4d5-4a16-a0f6-a3357c20ab74
 
 ----field----
 field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
-name: Title
-key: title
+name: Header
+key: header
 content-length: 13
 
 Sensible Wigs
 ----field----
 field: {B0915BB3-AC0A-4C02-B6F8-15BC2C7C4FA4}
-name: SubTitle
-key: subtitle
+name: SubHeader
+key: subheader
 content-length: 29
 
 Normal wigs for normal people

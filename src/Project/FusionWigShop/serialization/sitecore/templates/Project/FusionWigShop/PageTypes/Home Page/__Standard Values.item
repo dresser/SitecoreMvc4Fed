@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {8D83ECD0-CE8A-4017-A79B-82686BBF4600}
+database: master
+path: /sitecore/templates/Project/FusionWigShop/PageTypes/Home Page/__Standard Values
+parent: {7495BFBB-160F-4F43-84B7-C72B78B83338}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {7495BFBB-160F-4F43-84B7-C72B78B83338}
+templatekey: Home Page
+created: 20161023T194914Z
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 116
+
+{74C38A17-A2D2-42DC-8973-B66B7C19B88B}|{8FA74C76-FF6C-47AD-953F-767E4821AB54}|{D9500861-DE54-4917-9D92-15D8E55F4DBE}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 401
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4CC50A99-61E5-4140-B7A7-A14B0BCBC20C}"><r id="{398F4400-FC96-4436-BBE7-D23E48B5261D}" ph="TopBar" uid="{41FD70E0-123B-4FC8-8AB1-9CB2B7177586}" /><r ds="{7E029A74-CD2F-444F-A8E5-FC7E9001461E}" id="{2ECE30C4-1E61-4EA0-8744-924923000EE7}" ph="Main" uid="{9292CC2F-06C6-4DAF-8564-4CE170676C5E}" /></d></r>
+----version----
+language: en
+version: 1
+revision: caa507d2-9e6d-485c-bdfd-10ea7df7b3d5
+
+----field----
+field: {D920390F-0525-42CA-A336-A4581A362886}
+name: NavigationTitle
+key: navigationtitle
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161023T214914Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+caa507d2-9e6d-485c-bdfd-10ea7df7b3d5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20161214T181557Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

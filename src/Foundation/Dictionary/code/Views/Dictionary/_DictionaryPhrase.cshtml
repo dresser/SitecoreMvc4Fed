@@ -1,0 +1,6 @@
+﻿@model String
+@{ 
+    var query = @"fast:/ancestor::*[@@templatename='Website']//*[@@templatename='Settings']//*[@@templatename='Dictionary Root']/" + Model;
+    var dictionaryEntry = Sitecore.Context.Database.SelectSingleItem(query);
+}
+@Html.Sitecore().Field("Phrase", dictionaryEntry)

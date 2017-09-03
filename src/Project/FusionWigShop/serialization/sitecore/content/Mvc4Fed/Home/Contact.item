@@ -7,7 +7,7 @@ parent: {5D16B629-BEA8-4127-B893-600E75FCBCC3}
 name: Contact
 master: {00000000-0000-0000-0000-000000000000}
 template: {D9500861-DE54-4917-9D92-15D8E55F4DBE}
-templatekey: FreeTextPage
+templatekey: Free Text Page
 created: 20161207T122128Z
 
 ----field----

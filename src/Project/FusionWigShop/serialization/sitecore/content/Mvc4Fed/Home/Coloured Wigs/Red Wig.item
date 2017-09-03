@@ -7,8 +7,8 @@ parent: {3B659B8F-0681-4678-8A22-D26E42E5CD57}
 name: Red Wig
 master: {00000000-0000-0000-0000-000000000000}
 template: {74C38A17-A2D2-42DC-8973-B66B7C19B88B}
-templatekey: ProductPage
-created: 20161205T215419:636165716591430000
+templatekey: Product Page
+created: 20161205T205419Z
 
 ----version----
 language: en

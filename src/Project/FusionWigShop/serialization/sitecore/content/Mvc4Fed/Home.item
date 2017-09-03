@@ -7,7 +7,7 @@ parent: {2000FAD3-93F9-478C-9CA0-C09520A8F576}
 name: Home
 master: {00000000-0000-0000-0000-000000000000}
 template: {7495BFBB-160F-4F43-84B7-C72B78B83338}
-templatekey: HomePage
+templatekey: Home Page
 created: 20161023T205449Z
 
 ----field----

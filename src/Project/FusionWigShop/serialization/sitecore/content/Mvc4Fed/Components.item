@@ -7,8 +7,8 @@ parent: {2000FAD3-93F9-478C-9CA0-C09520A8F576}
 name: Components
 master: {00000000-0000-0000-0000-000000000000}
 template: {E73B34AA-6DA4-435E-89E3-B6B6CD02787A}
-templatekey: ComponentsFolder
-created: 20161127T112944:636158429845800000
+templatekey: Components Folder
+created: 20161127T102944Z
 
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}

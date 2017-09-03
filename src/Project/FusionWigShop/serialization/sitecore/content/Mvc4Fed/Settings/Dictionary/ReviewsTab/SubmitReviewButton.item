@@ -7,16 +7,9 @@ parent: {CDAC63EC-ABA5-4F41-ACF8-EF8A97D7F16C}
 name: SubmitReviewButton
 master: {00000000-0000-0000-0000-000000000000}
 template: {052C4579-EFB4-42E2-B704-DF9F8B6406A9}
-templatekey: DictionaryEntry
+templatekey: Dictionary Entry
 created: 20170102T202146Z
 
-----field----
-field: {A1F13C8A-2F7B-4A5E-A5D1-69031013BE56}
-name: Key
-key: key
-content-length: 18
-
-SubmitReviewButton
 ----version----
 language: en
 version: 1

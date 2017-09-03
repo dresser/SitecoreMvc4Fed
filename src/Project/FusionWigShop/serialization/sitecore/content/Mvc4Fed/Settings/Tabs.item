@@ -7,8 +7,8 @@ parent: {B97B93E8-DB34-46B9-A446-0A6BD3CFD34C}
 name: Tabs
 master: {00000000-0000-0000-0000-000000000000}
 template: {974CF828-3268-4CC8-84E1-00E263DA4AAE}
-templatekey: TabsFolder
-created: 20161212T090750:636171304706900000
+templatekey: Tabs Folder
+created: 20161212T080750Z
 
 ----version----
 language: en

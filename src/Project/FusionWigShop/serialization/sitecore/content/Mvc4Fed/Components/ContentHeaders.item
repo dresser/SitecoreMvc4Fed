@@ -7,8 +7,8 @@ parent: {B7D9E680-1545-47E7-A338-58E5128100A3}
 name: ContentHeaders
 master: {00000000-0000-0000-0000-000000000000}
 template: {4F53E8DD-8C50-4F91-8894-55FA98B6D095}
-templatekey: ContentFolder
-created: 20161129T234954:636160601946900000
+templatekey: Content Folder
+created: 20161129T224954Z
 
 ----version----
 language: en

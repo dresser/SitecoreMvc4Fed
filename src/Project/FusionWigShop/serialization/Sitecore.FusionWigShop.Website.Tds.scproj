@@ -454,6 +454,58 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\Project.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\Project\FusionWigShop.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\Project\FusionWigShop\Carousel.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\Project\FusionWigShop\Carousel\%2524name.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\Project\FusionWigShop\Carousel\%2524name\Slide1.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\Project\FusionWigShop\Carousel\%2524name\Slide2.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\Project\FusionWigShop\Carousel\%2524name\Slide3.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\Project\FusionWigShop\Carousel\%2524name\Slide4.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\Project\FusionWigShop\Menu.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\Project\FusionWigShop\Menu\%2524name.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\Project\FusionWigShop\Menu\%2524name\LinkItem1.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\Project\FusionWigShop\Menu\%2524name\LinkItem2.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Branches\Project\FusionWigShop\Menu\%2524name\TextItem.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\templates\Project.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
@@ -462,183 +514,223 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Components.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Components Folder.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Components\ComponentsFolder.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Components Folder\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Components\ComponentsFolder\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Dictionary.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Callout.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Dictionary\DictionaryEntry.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Callouts Folder.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Dictionary\DictionaryEntry\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Callouts Folder\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Dictionary\DictionaryEntry\Data.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Carousel Slide.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Dictionary\DictionaryEntry\Data\Key.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Carousel.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Dictionary\DictionaryEntry\Data\Phrase.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Carousel\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Dictionary\DictionaryFolder.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Carousels Folder.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Dictionary\DictionaryFolder\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Carousels Folder\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Dictionary\DictionaryRoot.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Content Folder.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Dictionary\DictionaryRoot\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Content Folder\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Footer.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Header.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Footer\Footer.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Sidebar Widget.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Footer\Footer\Footer.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Sidebars Folder.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Footer\Footer\Footer\Description.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Content\Sidebars Folder\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Footer\Footer\Footer\FooterMenu1.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Dictionary Entry.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Footer\Footer\Footer\FooterMenu2.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Dictionary Entry\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Footer\Footer\Footer\Title.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Dictionary Folder.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Header.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Dictionary Folder\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Header\Header.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Dictionary Root.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Header\Header\Header Settings.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Dictionary Root\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Header\Header\Header Settings\LogoMenu.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Footer.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Header\Header\Header Settings\SecondaryMenu.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Footer\Footer.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Product.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Footer\Footer\Description.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Product\ProductSelection.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Footer\Footer\FooterMenu1.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Product\ProductSelectionsFolder.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Footer\Footer\FooterMenu2.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Product\ProductSelectionsFolder\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Footer\Footer\Title.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Product\RelatedProductsTab.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Header.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Product\RelatedProductsTab\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Header\Header Settings.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Product\ReviewsTab.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Header\Header Settings\LogoMenu.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Product\ReviewsTab\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Header\Header Settings\SecondaryMenu.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Product\TopProducts.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Navigation.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Settings.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Navigation\LinkItem.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Settings\SettingsFolder.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Navigation\Menu.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Settings\SettingsFolder\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Navigation\Menu\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Tabs.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Navigation\MenusFolder.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Tabs\Tab.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Navigation\MenusFolder\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Tabs\Tab\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Navigation\TextItem.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Tabs\Tab\Tab.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Product Selection.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Tabs\Tab\Tab\Title.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Product Selections Folder.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Tabs\TabsFolder.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Product Selections Folder\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\ContentTypes\Tabs\TabsFolder\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Related Products Tab.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Related Products Tab\__Standard Values.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Reviews Tab.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Reviews Tab\__Standard Values.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Settings.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Settings\__Standard Values.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Tabs Folder.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Tabs Folder\__Standard Values.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Top Products.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Website.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\Content Types\Website\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -646,43 +738,35 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\FreeTextPage.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\Free Text Page.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\FreeTextPage\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\Free Text Page\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\HomePage.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\Home Page.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\HomePage\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\Home Page\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\ProductCategoryPage.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\Product Category Page.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\ProductCategoryPage\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\Product Category Page\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\ProductPage.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\Product Page.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\ProductPage\__Standard Values.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\Website.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\Website\__Standard Values.item">
+    <SitecoreItem Include="sitecore\templates\Project\FusionWigShop\PageTypes\Product Page\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

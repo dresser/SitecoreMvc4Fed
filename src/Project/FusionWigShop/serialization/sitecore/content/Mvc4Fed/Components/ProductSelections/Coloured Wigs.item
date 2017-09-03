@@ -7,7 +7,7 @@ parent: {3F8A6C98-27F3-4380-AF15-66F485081ACC}
 name: Coloured Wigs
 master: {00000000-0000-0000-0000-000000000000}
 template: {D78F5772-ABAD-41C4-9EEA-D9FF4CD4C6D6}
-templatekey: TopProducts
+templatekey: Top Products
 created: 20161205T170322Z
 
 ----version----
@@ -17,8 +17,8 @@ revision: df06ee1f-2d49-4a14-9767-4e85bb370c43
 
 ----field----
 field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
-name: Title
-key: title
+name: Header
+key: header
 content-length: 13
 
 Coloured Wigs

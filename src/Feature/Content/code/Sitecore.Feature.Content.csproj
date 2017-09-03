@@ -114,19 +114,13 @@
   <ItemGroup>
     <None Include="Properties\PublishProfiles\Local wwwroot.pubxml" />
     <Content Include="Views\Content\Carousel.cshtml" />
-    <Content Include="Views\Content\ContentHeaderH2.cshtml" />
+    <Content Include="Views\Content\HeaderH2.cshtml" />
     <Content Include="Views\Content\Callout.cshtml" />
     <Content Include="Views\Content\PageHeader.cshtml" />
-    <Content Include="Views\Content\PageContent.cshtml" />
+    <Content Include="Views\Content\SectionContent.cshtml" />
     <Content Include="Views\Content\SidebarWidget.cshtml" />
     <None Include="web.config" />
     <None Include="Views\Web.config" />
-    <None Include="web.Debug.config">
-      <DependentUpon>web.config</DependentUpon>
-    </None>
-    <None Include="web.Release.config">
-      <DependentUpon>web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

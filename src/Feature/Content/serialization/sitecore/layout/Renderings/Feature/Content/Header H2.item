@@ -1,0 +1,80 @@
+----item----
+version: 1
+id: {6F5DA58B-0CD4-4AB0-80B8-423936E4602E}
+database: master
+path: /sitecore/layout/Renderings/Feature/Content/Header H2
+parent: {2305BCD5-56B8-4434-B7EC-C66BE9E48A9A}
+name: Header H2
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+created: 20161129T224312Z
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 30
+
+/Views/Content/HeaderH2.cshtml
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 0
+
+
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 51
+
+/sitecore/content/Mvc4Fed/Components/ContentHeaders
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 44
+
+/sitecore/templates/Feature/Content/__Header
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 27
+
+Office/16x16/text_field.png
+----version----
+language: en
+version: 1
+revision: cd8ed966-8071-4a84-b228-871cca2ad70a
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161129T234312Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cd8ed966-8071-4a84-b228-871cca2ad70a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170903T225611Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

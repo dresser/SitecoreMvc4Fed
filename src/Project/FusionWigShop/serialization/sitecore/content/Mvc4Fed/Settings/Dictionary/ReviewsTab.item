@@ -7,8 +7,8 @@ parent: {41553517-6C11-4B13-8132-ED9178F0BDE8}
 name: ReviewsTab
 master: {00000000-0000-0000-0000-000000000000}
 template: {51CA07B0-BBCD-4B52-9752-CC243E155B31}
-templatekey: DictionaryFolder
-created: 20161212T085246:636171295663500000
+templatekey: Dictionary Folder
+created: 20161212T075246Z
 
 ----version----
 language: en

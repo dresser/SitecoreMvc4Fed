@@ -1,0 +1,82 @@
+----item----
+version: 1
+id: {04230982-7501-4D2A-8232-681E75601B11}
+database: master
+path: /sitecore/templates/Project/FusionWigShop/PageTypes/Free Text Page/__Standard Values
+parent: {D9500861-DE54-4917-9D92-15D8E55F4DBE}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {D9500861-DE54-4917-9D92-15D8E55F4DBE}
+templatekey: Free Text Page
+created: 20161207T111807Z
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 781
+
+<r>
+  <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4CC50A99-61E5-4140-B7A7-A14B0BCBC20C}">
+    <r id="{398F4400-FC96-4436-BBE7-D23E48B5261D}" ph="Header" uid="{24A3808D-2BC1-49BE-BAA1-709339F75035}" />
+    <r id="{F33A6CA0-7C23-4993-A52C-B55D8A494C3E}" ph="Main" uid="{06791B93-A0BA-4457-A49F-4A8BEC0D3E9A}" />
+    <r id="{4948DC84-9072-437F-B90F-FE573827373C}" ph="Main" uid="{7914E8FD-990D-4D83-B888-345097A88563}" />
+    <r id="{3F1B0C6C-A8D5-430B-9AB5-B5E7E8370B35}" ph="Content" uid="{BE4C4245-EBF8-4615-9BE3-4FDCD1CD7464}" />
+    <r id="{DC0CBC35-0E4A-43AC-8A9F-C0A8B42E9B78}" ph="Sidebar" uid="{874094A0-36B5-4EBB-A616-163396C7EEE6}" />
+    <r id="{570B60BE-EEE7-4962-B62F-E564BF2E78D4}" ph="Footer" uid="{88692855-6CB9-4C53-8581-388F5D7B25F3}" />
+  </d>
+</r>
+----version----
+language: en
+version: 1
+revision: 39568862-6a0d-4f2e-8450-76bcb457c013
+
+----field----
+field: {0376731F-3535-40FC-815B-F4BBE18A77DB}
+name: SectionHeader
+key: sectionheader
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161207T121807Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+39568862-6a0d-4f2e-8450-76bcb457c013
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170903T214317Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

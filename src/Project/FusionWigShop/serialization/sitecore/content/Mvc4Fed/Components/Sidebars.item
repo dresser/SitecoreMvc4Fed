@@ -7,8 +7,8 @@ parent: {B7D9E680-1545-47E7-A338-58E5128100A3}
 name: Sidebars
 master: {00000000-0000-0000-0000-000000000000}
 template: {B78CB20B-DB13-4D1F-9CF4-8B9B4436267B}
-templatekey: SidebarsFolder
-created: 20161208T234217:636168373370570000
+templatekey: Sidebars Folder
+created: 20161208T224217Z
 
 ----version----
 language: en

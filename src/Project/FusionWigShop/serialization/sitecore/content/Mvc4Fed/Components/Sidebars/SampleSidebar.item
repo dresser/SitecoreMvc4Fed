@@ -7,18 +7,18 @@ parent: {0C239BA9-0AC3-4827-8601-1110B66153D1}
 name: SampleSidebar
 master: {00000000-0000-0000-0000-000000000000}
 template: {66C047DF-6C0F-43F7-ACD9-390546219967}
-templatekey: SidebarWidget
+templatekey: Sidebar Widget
 created: 20161208T234227Z
 
 ----version----
 language: en
 version: 1
-revision: c80239c0-11d8-4c54-b6c0-d842db2e77c9
+revision: eeab399c-177b-44b5-8992-d6897a4dcb34
 
 ----field----
 field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
-name: Title
-key: title
+name: Header
+key: header
 content-length: 10
 
 Categories
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c80239c0-11d8-4c54-b6c0-d842db2e77c9
+eeab399c-177b-44b5-8992-d6897a4dcb34
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161209T161947Z
+20170903T224953Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

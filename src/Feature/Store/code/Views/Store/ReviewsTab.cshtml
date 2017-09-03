@@ -3,7 +3,7 @@
 <div class="tabs-panel @(Model.Rendering.Properties["IsActive"] == "True" ? "is-active" : "")" id="@Model.Rendering.Properties["PanelId"]">
     @{ 
         var db = Model.Item.Database;
-        var query = @"fast:/ancestor::*[@@templatename='Website']//*[@@templatename='SettingsFolder']//*[@@templatename='DictionaryRoot']//*[@@name='ReviewsTab']";
+        var query = @"fast:/ancestor::*[@@templatename='Website']//*[@@templatename='Settings']//*[@@templatename='Dictionary Root']//*[@@name='ReviewsTab']";
         var reviewsTab = db.SelectSingleItem(query);
         var myReviewLabel = reviewsTab.Children["MyReviewLabel"];
         var reviewPlaceholder = reviewsTab.Children["ReviewPlaceholder"];
@@ -38,8 +38,8 @@
         </div>
     </div>
     <label>
-        @Html.Sitecore().Field("Phrase", myReviewLabel)
-        <textarea placeholder="@Html.Sitecore().Field("Phrase", reviewPlaceholder, new { DisableWebedit = true })"></textarea>
+        @Html.Partial("~/Views/Dictionary/_DictionaryPhrase.cshtml", "ReviewsTab/MyReviewLabel")
+        <textarea placeholder="@Html.Partial("~/Views/Dictionary/_DictionaryPhrase.cshtml", "ReviewsTab/ReviewPlaceholder")"></textarea>
     </label>
-    <button class="button">@Html.Sitecore().Field("Phrase", submitReviewButton, new { DisableWebedit = true })</button>
+    <button class="button">@Html.Partial("~/Views/Dictionary/_DictionaryPhrase.cshtml", "ReviewsTab/SubmitReviewButton")</button>
 </div>

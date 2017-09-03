@@ -14,9 +14,9 @@ created: 20161208T143844Z
 field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
 name: Path
 key: path
-content-length: 33
+content-length: 36
 
-/Views/Content/PageContent.cshtml
+/Views/Content/SectionContent.cshtml
 ----field----
 field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
 name: Open Properties after Add
@@ -24,6 +24,13 @@ key: open properties after add
 content-length: 0
 
 
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 51
+
+/sitecore/templates/Feature/Content/_SectionContent
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -34,7 +41,7 @@ Office/16x16/document_text.png
 ----version----
 language: en
 version: 1
-revision: 9f4479f5-6b11-4603-ab27-40ecadfe5aa7
+revision: 4b7b1793-5d62-4faa-9caf-01b602a5a2eb
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -49,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9f4479f5-6b11-4603-ab27-40ecadfe5aa7
+4b7b1793-5d62-4faa-9caf-01b602a5a2eb
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170827T192149Z
+20170903T214609Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

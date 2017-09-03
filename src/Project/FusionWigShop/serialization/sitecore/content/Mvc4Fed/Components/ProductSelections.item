@@ -7,8 +7,8 @@ parent: {B7D9E680-1545-47E7-A338-58E5128100A3}
 name: ProductSelections
 master: {00000000-0000-0000-0000-000000000000}
 template: {3C5F652B-475D-4933-AA46-AF23B765F15C}
-templatekey: ProductSelectionsFolder
-created: 20161201T225635:636162297953930000
+templatekey: Product Selections Folder
+created: 20161201T215635Z
 
 ----version----
 language: en

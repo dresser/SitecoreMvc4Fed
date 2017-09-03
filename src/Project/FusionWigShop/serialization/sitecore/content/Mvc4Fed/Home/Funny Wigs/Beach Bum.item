@@ -7,8 +7,8 @@ parent: {DA27B64D-89BC-4CDA-B2C3-A1B668F7C7AD}
 name: Beach Bum
 master: {00000000-0000-0000-0000-000000000000}
 template: {74C38A17-A2D2-42DC-8973-B66B7C19B88B}
-templatekey: ProductPage
-created: 20161201T231016:636162306164000000
+templatekey: Product Page
+created: 20161201T221016Z
 
 ----version----
 language: en

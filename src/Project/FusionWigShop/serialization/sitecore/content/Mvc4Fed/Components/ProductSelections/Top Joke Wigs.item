@@ -7,7 +7,7 @@ parent: {3F8A6C98-27F3-4380-AF15-66F485081ACC}
 name: Top Joke Wigs
 master: {00000000-0000-0000-0000-000000000000}
 template: {D78F5772-ABAD-41C4-9EEA-D9FF4CD4C6D6}
-templatekey: TopProducts
+templatekey: Top Products
 created: 20161205T164109Z
 
 ----version----
@@ -17,8 +17,8 @@ revision: f184ea99-4aa4-4668-9bba-98f9ff6ac225
 
 ----field----
 field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
-name: Title
-key: title
+name: Header
+key: header
 content-length: 9
 
 Joke Wigs

@@ -7,7 +7,7 @@ parent: {3EEA56A2-F4D1-4723-B870-60E91F361F98}
 name: NewestProducts
 master: {00000000-0000-0000-0000-000000000000}
 template: {1EC9017D-86B0-4265-A7BF-744E8B334E45}
-templatekey: ContentHeader
+templatekey: Header
 created: 20161130T092646Z
 
 ----version----
@@ -17,8 +17,8 @@ revision: 2ad81406-e129-4466-9b9a-f5eb7b4f806e
 
 ----field----
 field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
-name: Title
-key: title
+name: Header
+key: header
 content-length: 19
 
 Our Newest Products

@@ -1,0 +1,6 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="blog-post">
+    <h3>@Html.Sitecore().Field("SectionHeader") <small>@Html.Sitecore().Field("Date")</small></h3>
+    @Html.Sitecore().Field("Image")
+    <p>@Html.Sitecore().Field("SectionContent")</p>
+</div>

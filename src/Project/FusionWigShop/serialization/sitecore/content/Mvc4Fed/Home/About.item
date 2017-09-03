@@ -7,7 +7,7 @@ parent: {5D16B629-BEA8-4127-B893-600E75FCBCC3}
 name: About
 master: {00000000-0000-0000-0000-000000000000}
 template: {D9500861-DE54-4917-9D92-15D8E55F4DBE}
-templatekey: FreeTextPage
+templatekey: Free Text Page
 created: 20161207T121932Z
 
 ----field----
@@ -27,47 +27,47 @@ content-length: 186
 ----version----
 language: en
 version: 1
-revision: b1c37762-9d43-4612-a406-48d700625531
+revision: 2dd7272c-ea22-422c-8edb-a2f5b8a4c871
 
-----field----
-field: {0376731F-3535-40FC-815B-F4BBE18A77DB}
-name: ContentHeader
-key: contentheader
-content-length: 26
-
-This is the content header
 ----field----
 field: {BCADA44D-4EBE-4E34-A43A-975D6ABBF8DD}
-name: Title
-key: title
+name: Header
+key: header
 content-length: 8
 
 About Us
 ----field----
+field: {0376731F-3535-40FC-815B-F4BBE18A77DB}
+name: SectionHeader
+key: sectionheader
+content-length: 26
+
+This is the content header
+----field----
 field: {E8F8AD17-13A8-4213-9DB9-61DB408E828D}
-name: ContentDate
-key: contentdate
+name: Date
+key: date
 content-length: 15
 
 20161214T000000
 ----field----
 field: {B0915BB3-AC0A-4C02-B6F8-15BC2C7C4FA4}
-name: SubTitle
-key: subtitle
+name: SubHeader
+key: subheader
 content-length: 16
 
 Why we love wigs
 ----field----
 field: {D36E87D8-CA91-48EE-8558-D12289BEEE5B}
-name: ContentImage
-key: contentimage
+name: Image
+key: image
 content-length: 190
 
 <image mediapath="" alt="smiffys-babe-wig-fuschia-short-bob" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{C10D5CF9-066F-4B37-95E2-6053C525D440}" />
 ----field----
 field: {8EC95873-9C7A-4B5A-92D8-FB8AB753110F}
-name: ContentBody
-key: contentbody
+name: SectionContent
+key: sectioncontent
 content-length: 334
 
 Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.
@@ -91,18 +91,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b1c37762-9d43-4612-a406-48d700625531
+2dd7272c-ea22-422c-8edb-a2f5b8a4c871
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170118T213145Z
+20170903T214317Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin

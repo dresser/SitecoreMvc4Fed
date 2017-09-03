@@ -7,8 +7,8 @@ parent: {6E5FD584-51D1-482F-96EF-4A2C600B2AA9}
 name: SimilarProducts
 master: {00000000-0000-0000-0000-000000000000}
 template: {AD46D9C9-7375-4D4D-A8AF-6266020AA615}
-templatekey: RelatedProductsTab
-created: 20161212T092245:636171313656100000
+templatekey: Related Products Tab
+created: 20161212T082245Z
 
 ----version----
 language: en

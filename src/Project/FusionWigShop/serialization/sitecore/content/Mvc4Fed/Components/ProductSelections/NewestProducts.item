@@ -7,8 +7,8 @@ parent: {3F8A6C98-27F3-4380-AF15-66F485081ACC}
 name: NewestProducts
 master: {00000000-0000-0000-0000-000000000000}
 template: {F5084162-11BB-4566-B5DB-ECD35F1476E2}
-templatekey: ProductSelection
-created: 20161201T225706:636162298261230000
+templatekey: Product Selection
+created: 20161201T215706Z
 
 ----version----
 language: en

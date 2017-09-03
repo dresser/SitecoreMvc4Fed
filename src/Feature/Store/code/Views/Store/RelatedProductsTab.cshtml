@@ -3,7 +3,7 @@
 <div class="tabs-panel @(Model.Rendering.Properties["IsActive"] == "True" ? "is-active" : "")" id="@Model.Rendering.Properties["PanelId"]">
     <div class="row medium-up-3 large-up-5">
         @{ 
-            var relatedProductItems = Model.PageItem.Parent.Axes.SelectItems(@"./*[@@templatename='ProductPage' and @@id != '" + Model.PageItem.ID + "']").Take(5) ?? new Sitecore.Data.Items.Item[] { };
+            var relatedProductItems = Model.PageItem.Parent.Axes.SelectItems(@"./*[@@templatename='Product Page' and @@id != '" + Model.PageItem.ID + "']").Take(5) ?? new Sitecore.Data.Items.Item[] { };
         }
         @foreach (var product in relatedProductItems)
         {

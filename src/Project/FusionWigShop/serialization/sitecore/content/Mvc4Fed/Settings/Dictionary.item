@@ -7,8 +7,8 @@ parent: {B97B93E8-DB34-46B9-A446-0A6BD3CFD34C}
 name: Dictionary
 master: {00000000-0000-0000-0000-000000000000}
 template: {C97EF8D7-9302-4226-8954-B86388A8BC62}
-templatekey: DictionaryRoot
-created: 20161212T085233:636171295535200000
+templatekey: Dictionary Root
+created: 20161212T075233Z
 
 ----version----
 language: en

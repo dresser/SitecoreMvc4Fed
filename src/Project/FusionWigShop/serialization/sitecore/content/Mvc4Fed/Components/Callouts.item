@@ -7,8 +7,8 @@ parent: {B7D9E680-1545-47E7-A338-58E5128100A3}
 name: Callouts
 master: {00000000-0000-0000-0000-000000000000}
 template: {5DD34F2B-668D-4929-8AD0-590971B2A248}
-templatekey: CalloutsFolder
-created: 20161202T001842:636162347222170000
+templatekey: Callouts Folder
+created: 20161201T231842Z
 
 ----version----
 language: en

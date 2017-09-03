@@ -25,12 +25,19 @@ content-length: 0
 
 
 ----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 46
+
+/sitecore/content/Mvc4Fed/Components/Carousels
+----field----
 field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
 name: Datasource Template
 key: datasource template
-content-length: 0
+content-length: 45
 
-
+/sitecore/templates/Feature/Content/_Carousel
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -41,7 +48,7 @@ Office/16x16/window_width.png
 ----version----
 language: en
 version: 1
-revision: bf07bac8-075c-42af-80cb-c99120f86b79
+revision: 8863bab4-a661-4d31-a889-d2654dfd53d1
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -56,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-bf07bac8-075c-42af-80cb-c99120f86b79
+8863bab4-a661-4d31-a889-d2654dfd53d1
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170818T221902Z
+20170903T192058Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
