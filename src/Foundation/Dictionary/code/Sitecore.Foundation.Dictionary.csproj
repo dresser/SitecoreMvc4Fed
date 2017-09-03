@@ -113,7 +113,7 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="Properties\PublishProfiles\Local wwwroot.pubxml" />
-    <Content Include="Views\Dictionary\_DictionaryPhrase.cshtml" />
+    <Content Include="Views\Shared\_DictionaryPhrase.cshtml" />
     <None Include="web.config" />
     <None Include="Views\Web.config" />
   </ItemGroup>

@@ -38,8 +38,8 @@
         </div>
     </div>
     <label>
-        @Html.Partial("~/Views/Dictionary/_DictionaryPhrase.cshtml", "ReviewsTab/MyReviewLabel")
-        <textarea placeholder="@Html.Partial("~/Views/Dictionary/_DictionaryPhrase.cshtml", "ReviewsTab/ReviewPlaceholder")"></textarea>
+        @Html.Partial("_DictionaryPhrase", "ReviewsTab/MyReviewLabel")
+        <textarea placeholder="@Html.Partial("_DictionaryPhrase", "ReviewsTab/ReviewPlaceholder")"></textarea>
     </label>
-    <button class="button">@Html.Partial("~/Views/Dictionary/_DictionaryPhrase.cshtml", "ReviewsTab/SubmitReviewButton")</button>
+    <button class="button">@Html.Partial("_DictionaryPhrase", "ReviewsTab/SubmitReviewButton")</button>
 </div>
