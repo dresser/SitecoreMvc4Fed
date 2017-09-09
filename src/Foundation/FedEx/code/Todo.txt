@@ -1,0 +1,15 @@
+﻿Get Rendering Parameters Field as list of items
+
+Get item multilist field as list of items
+
+Get Item URL
+
+Get Linked Item URL
+
+Get Breadcrumb Items
+
+Inherits From Template
+
+Get Settings Item
+
+Get Root Settings
