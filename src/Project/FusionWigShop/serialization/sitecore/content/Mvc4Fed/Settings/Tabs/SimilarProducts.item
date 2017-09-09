@@ -17,8 +17,8 @@ revision: 673145b9-dcf1-401b-ac29-fd61c15c34a1
 
 ----field----
 field: {D8C1A513-E082-4637-AA58-D2E63EBBCB7B}
-name: Title
-key: title
+name: TabTitle
+key: tabtitle
 content-length: 16
 
 Similar Products
