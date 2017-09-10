@@ -13,7 +13,7 @@ created: 20161205T203745Z
 ----version----
 language: en
 version: 1
-revision: dcef782f-6edc-4b7d-b02f-884fd3f37ba0
+revision: f1eb270b-0e8a-4928-ba88-eb1a11bcc27a
 
 ----field----
 field: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
@@ -37,6 +37,13 @@ content-length: 219
 
 <image mediapath="/Website/wig-long-brown-hair" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Website/wig-long-brown-hair" mediaid="{8A1B0D63-58EB-4D7E-8CC2-35A782BA7FEB}" />
 ----field----
+field: {28AD7C77-1A9D-4808-88C3-0A51AC076EDB}
+name: Sizes
+key: sizes
+content-length: 116
+
+{A7B2B480-4EA7-4581-B534-1C12C6DFFB97}|{2E57CB21-0DC9-4EE0-95C7-0A2DC04728F3}|{5966D914-7446-4720-99F5-81CF46C67EBE}
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -49,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dcef782f-6edc-4b7d-b02f-884fd3f37ba0
+f1eb270b-0e8a-4928-ba88-eb1a11bcc27a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161205T213820Z
+20170910T132610Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -13,7 +13,7 @@ created: 20161201T220156Z
 ----version----
 language: en
 version: 1
-revision: 26f8ca1f-9ef5-4ab8-83eb-389a1bee2dee
+revision: 084d8251-c322-45e0-8581-3683160e4cbc
 
 ----field----
 field: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
@@ -36,6 +36,13 @@ key: mainimage
 content-length: 165
 
 <image mediapath="" alt="trump-wig" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{C045EA5E-C448-4D95-9621-E86F69BB8F82}" />
+----field----
+field: {28AD7C77-1A9D-4808-88C3-0A51AC076EDB}
+name: Sizes
+key: sizes
+content-length: 77
+
+{2E57CB21-0DC9-4EE0-95C7-0A2DC04728F3}|{5966D914-7446-4720-99F5-81CF46C67EBE}
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -63,14 +70,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-26f8ca1f-9ef5-4ab8-83eb-389a1bee2dee
+084d8251-c322-45e0-8581-3683160e4cbc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161201T231643Z
+20170910T132547Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

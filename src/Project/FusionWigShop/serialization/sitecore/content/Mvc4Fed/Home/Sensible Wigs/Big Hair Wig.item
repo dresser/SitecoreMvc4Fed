@@ -13,7 +13,7 @@ created: 20161205T204210Z
 ----version----
 language: en
 version: 1
-revision: c0945741-85c6-4aee-83a3-53ed0b3d7d40
+revision: c45b078e-a86b-4f6c-9c09-f649b0258bca
 
 ----field----
 field: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
@@ -37,6 +37,13 @@ content-length: 229
 
 <image mediapath="/Website/wig-big-black-fuzzy-hair" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Website/wig-big-black-fuzzy-hair" mediaid="{72BDE5DC-21AB-43AB-B109-010D3A4147DF}" />
 ----field----
+field: {28AD7C77-1A9D-4808-88C3-0A51AC076EDB}
+name: Sizes
+key: sizes
+content-length: 155
+
+{A7B2B480-4EA7-4581-B534-1C12C6DFFB97}|{2E57CB21-0DC9-4EE0-95C7-0A2DC04728F3}|{5966D914-7446-4720-99F5-81CF46C67EBE}|{6C4B3BA9-255A-4179-8CDA-5FEB429C89BD}
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -49,14 +56,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-c0945741-85c6-4aee-83a3-53ed0b3d7d40
+c45b078e-a86b-4f6c-9c09-f649b0258bca
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161205T214809Z
+20170910T132559Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

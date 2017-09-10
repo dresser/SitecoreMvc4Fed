@@ -13,7 +13,7 @@ created: 20161201T220841Z
 ----version----
 language: en
 version: 1
-revision: 0260cb24-5809-4ca4-9597-2d15c12ab70f
+revision: d5efa594-135c-4553-a8e4-c220a9ab69e0
 
 ----field----
 field: {D920390F-0525-42CA-A336-A4581A362886}
@@ -72,6 +72,13 @@ content-length: 170
 
 <image mediapath="" alt="black-afro-wig" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{4BF1A1A7-9DF3-457C-9FF0-38E438ABC1BC}" />
 ----field----
+field: {28AD7C77-1A9D-4808-88C3-0A51AC076EDB}
+name: Sizes
+key: sizes
+content-length: 116
+
+{A7B2B480-4EA7-4581-B534-1C12C6DFFB97}|{2E57CB21-0DC9-4EE0-95C7-0A2DC04728F3}|{5966D914-7446-4720-99F5-81CF46C67EBE}
+----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner
@@ -98,14 +105,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0260cb24-5809-4ca4-9597-2d15c12ab70f
+d5efa594-135c-4553-a8e4-c220a9ab69e0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161214T181525Z
+20170910T132511Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -13,7 +13,7 @@ created: 20161204T210218Z
 ----version----
 language: en
 version: 1
-revision: 174f2650-acbc-4a7b-b78b-60c6dba0e389
+revision: 66c52d9c-67b9-41b3-b1b3-b7bfecb58f39
 
 ----field----
 field: {D920390F-0525-42CA-A336-A4581A362886}
@@ -44,6 +44,13 @@ content-length: 189
 
 <image mediapath="/bald-wig" alt="bald-wig" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/bald-wig" mediaid="{CC7F71E1-168C-47DC-ABCA-DE83539DCC30}" />
 ----field----
+field: {28AD7C77-1A9D-4808-88C3-0A51AC076EDB}
+name: Sizes
+key: sizes
+content-length: 116
+
+{2E57CB21-0DC9-4EE0-95C7-0A2DC04728F3}|{5966D914-7446-4720-99F5-81CF46C67EBE}|{6C4B3BA9-255A-4179-8CDA-5FEB429C89BD}
+----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner
@@ -70,18 +77,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-174f2650-acbc-4a7b-b78b-60c6dba0e389
+66c52d9c-67b9-41b3-b1b3-b7bfecb58f39
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170118T212904Z
+20170910T132518Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin

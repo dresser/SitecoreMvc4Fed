@@ -13,7 +13,7 @@ created: 20161205T215720Z
 ----version----
 language: en
 version: 1
-revision: 1124b680-e547-4802-80bc-b0da1124ddca
+revision: d66a536a-8c53-4522-9531-7abbb17a26b3
 
 ----field----
 field: {D920390F-0525-42CA-A336-A4581A362886}
@@ -44,6 +44,13 @@ content-length: 190
 
 <image mediapath="" alt="smiffys-babe-wig-fuschia-short-bob" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{8F5BAFD7-DD14-4F39-B4EB-60568C247D99}" />
 ----field----
+field: {28AD7C77-1A9D-4808-88C3-0A51AC076EDB}
+name: Sizes
+key: sizes
+content-length: 155
+
+{A7B2B480-4EA7-4581-B534-1C12C6DFFB97}|{2E57CB21-0DC9-4EE0-95C7-0A2DC04728F3}|{5966D914-7446-4720-99F5-81CF46C67EBE}|{6C4B3BA9-255A-4179-8CDA-5FEB429C89BD}
+----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
@@ -56,18 +63,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1124b680-e547-4802-80bc-b0da1124ddca
+d66a536a-8c53-4522-9531-7abbb17a26b3
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170102T214128Z
+20170910T132453Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin

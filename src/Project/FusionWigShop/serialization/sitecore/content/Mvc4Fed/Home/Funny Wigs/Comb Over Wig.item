@@ -13,7 +13,7 @@ created: 20161204T200338Z
 ----version----
 language: en
 version: 1
-revision: 63c4a4b3-7071-498c-8fcd-1588fcf80922
+revision: 7fb5757e-7b3b-474a-9be8-f618ab44564a
 
 ----field----
 field: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
@@ -36,6 +36,13 @@ key: mainimage
 content-length: 169
 
 <image mediapath="" alt="comb-over-wig" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{8B180671-ACE2-462A-8B80-8F696434D6E0}" />
+----field----
+field: {28AD7C77-1A9D-4808-88C3-0A51AC076EDB}
+name: Sizes
+key: sizes
+content-length: 38
+
+{5966D914-7446-4720-99F5-81CF46C67EBE}
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -63,14 +70,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-63c4a4b3-7071-498c-8fcd-1588fcf80922
+7fb5757e-7b3b-474a-9be8-f618ab44564a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161204T210357Z
+20170910T132530Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

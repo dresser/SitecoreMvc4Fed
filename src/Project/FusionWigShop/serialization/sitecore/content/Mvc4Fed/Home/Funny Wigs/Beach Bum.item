@@ -13,7 +13,7 @@ created: 20161201T221016Z
 ----version----
 language: en
 version: 1
-revision: 943f3492-c7da-41af-9b2b-4ecd819c6211
+revision: 1b9f2cc6-9db4-49cc-a596-43eea9db13b7
 
 ----field----
 field: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
@@ -36,6 +36,13 @@ key: mainimage
 content-length: 208
 
 <image mediapath="/Website/beach-bum" alt="beach-bum" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/Website/beach-bum" mediaid="{1C26A4DD-F217-47F4-8480-BD6421863501}" />
+----field----
+field: {28AD7C77-1A9D-4808-88C3-0A51AC076EDB}
+name: Sizes
+key: sizes
+content-length: 38
+
+{5966D914-7446-4720-99F5-81CF46C67EBE}
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -63,14 +70,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-943f3492-c7da-41af-9b2b-4ecd819c6211
+1b9f2cc6-9db4-49cc-a596-43eea9db13b7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20161204T214600Z
+20170910T132524Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -1,16 +1,21 @@
-﻿@model Sitecore.Mvc.Presentation.RenderingModel
+﻿@using Sitecore.Data.Fields
+@model Sitecore.Mvc.Presentation.RenderingModel
 <div class="medium-6 large-5 columns">
     <h3>@Html.Sitecore().Field("Name")</h3>
     <p>@Html.Sitecore().Field("Description")</p>
-    @*<label>
-        Size
+    <label>
+        @Html.Partial("_DictionaryPhrase", "Store/Size")
+        @{ 
+            var field = new MultilistField(Model.Item.Fields["Sizes"]);
+            var sizes = field.GetItems();
+        }
         <select>
-            <option value="husker">Small</option>
-            <option value="starbuck">Medium</option>
-            <option value="hotdog">Large</option>
-            <option value="apollo">Yeti</option>
+            @foreach (var size in sizes)
+            {
+                <option value="@size.ID.ToString()">@Html.Sitecore().Field("Size", size, new { DisableWebEdit = true })</option>
+            }
         </select>
-    </label>*@
+    </label>
     <div class="row">
         <div class="small-3 columns">
             <label for="middle-label" class="middle">@Html.Partial("_DictionaryPhrase", "Store/Quantity")</label>

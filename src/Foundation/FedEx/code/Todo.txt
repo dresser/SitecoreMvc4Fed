@@ -13,3 +13,12 @@ Inherits From Template
 Get Settings Item
 
 Get Root Settings
+
+
+What you need to do:
+
+1) render fields off the current page
+
+2) render fields off a datasource item
+
+3) render fields off some ofther settings item (implicitly) e.g. dictionary items
