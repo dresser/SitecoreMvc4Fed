@@ -1,0 +1,9 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    var values = new[]
+    {
+        Html.Sitecore().CurrentItem["NoIndex"] == "1" ? "noindex" : "",
+        Html.Sitecore().CurrentItem["NoFollow"] == "1" ? "nofollow" : ""
+    };
+}
+<meta name="robots" content="@string.Join(", ", values.Where(v => v != ""))" />

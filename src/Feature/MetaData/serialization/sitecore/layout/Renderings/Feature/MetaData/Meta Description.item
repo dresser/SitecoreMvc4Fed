@@ -1,0 +1,52 @@
+----item----
+version: 1
+id: {D9B38AD4-B78B-40F4-987B-98974B7269AE}
+database: master
+path: /sitecore/layout/Renderings/Feature/MetaData/Meta Description
+parent: {9A35FA73-56D8-47FC-BE48-B20DBC96DE82}
+name: Meta Description
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+created: 20170910T230516Z
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 38
+
+/Views/MetaData/MetaDescription.cshtml
+----version----
+language: en
+version: 1
+revision: 6b2e7a27-3cb3-4dda-b706-3c0d4b807920
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170910T230516Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6b2e7a27-3cb3-4dda-b706-3c0d4b807920
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170910T230534Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

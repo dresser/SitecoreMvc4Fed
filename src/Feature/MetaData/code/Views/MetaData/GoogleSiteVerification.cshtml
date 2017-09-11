@@ -1,0 +1,10 @@
+﻿@using Sitecore.Foundation.FedEx
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    var siteRoot = Html.Sitecore().GetSiteRootItem();
+    var isHomePage = Html.Sitecore().GetHomePageItem().ID == Html.Sitecore().CurrentItem.ID;
+}
+@if (isHomePage)
+{
+    <meta name="google-site-verification" content="@Html.Sitecore().Field("VerificationCode", siteRoot, new {DisableWebEdit = true})"/>
+}

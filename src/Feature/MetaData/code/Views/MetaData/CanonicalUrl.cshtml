@@ -1,0 +1,7 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@{
+    var linkUrl = new Sitecore.Xml.Xsl.LinkUrl();
+    var canonicalUrl = linkUrl.GetUrl(Html.Sitecore().CurrentItem, "Canonical URL");
+}
+@if (!string.IsNullOrEmpty(canonicalUrl))
+{ <link rel="canonical" href="@canonicalUrl"/> }
