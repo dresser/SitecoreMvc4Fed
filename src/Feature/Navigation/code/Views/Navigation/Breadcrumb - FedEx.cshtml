@@ -1,0 +1,14 @@
+﻿@using Sitecore.Data.Items
+@using Sitecore.Foundation.FedEx
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="row columns">
+    <nav aria-label="You are here:" role="navigation">
+        <ul class="breadcrumbs">
+            @foreach (var item in Html.Sitecore().GetBreadcrumbItems())
+            {
+                <li><a href="@Html.Sitecore().GetItemUrl(item)">@Html.Sitecore().Field("NavigationTitle", item)</a></li>
+            }
+            <li class="disabled">@Html.Sitecore().Field("NavigationTitle", Model.PageItem)</li>
+        </ul>
+    </nav>
+</div>

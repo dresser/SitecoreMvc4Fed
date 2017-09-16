@@ -2,15 +2,15 @@
 
 Get item multilist field as list of items
 
-Get Item URL
+Get Item URL - DONE
 
 Get Linked Item URL
 
-Get Breadcrumb Items
+Get Breadcrumb Items - DONE
 
-Inherits From Template
+Inherits From Template - DONE
 
-Get Settings Item
+Get Settings Item - 
 
 Get Root Settings
 

@@ -117,8 +117,15 @@
     <None Include="Properties\PublishProfiles\Local wwwroot.pubxml" />
     <Content Include="Views\Navigation\Menu.cshtml" />
     <Content Include="Views\Navigation\Breadcrumb.cshtml" />
+    <Content Include="Views\Navigation\Breadcrumb - FedEx.cshtml" />
     <None Include="web.config" />
     <None Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\FedEx\code\Sitecore.Foundation.FedEx.csproj">
+      <Project>{9cbde895-88c2-42ea-96cf-3d9f4fdf3c58}</Project>
+      <Name>Sitecore.Foundation.FedEx</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
