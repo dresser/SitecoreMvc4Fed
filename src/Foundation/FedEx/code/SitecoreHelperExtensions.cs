@@ -23,7 +23,6 @@ namespace Sitecore.Foundation.FedEx
 
         public static Item GetHomePageItem(this SitecoreHelper sitecoreHelper)
         {
-            var test = sitecoreHelper.CurrentItem.GetAncestorsAndSelf();
             return sitecoreHelper.CurrentItem.GetAncestorsAndSelf()
                 .FirstOrDefault(a => HomePageTemplateIds.Any(a.IsDerived));
         }
