@@ -124,6 +124,7 @@
     <Content Include="Views\Store\ReviewsTab.cshtml" />
     <Content Include="Views\Store\RelatedProductsTab.cshtml" />
     <Content Include="Views\Store\ProductCategoryList.cshtml" />
+    <Content Include="Views\Store\NewestProducts - FedEx.cshtml" />
     <None Include="web.config" />
     <None Include="Views\Web.config" />
     <None Include="web.Debug.config">
@@ -132,6 +133,12 @@
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\FedEx\code\Sitecore.Foundation.FedEx.csproj">
+      <Project>{9cbde895-88c2-42ea-96cf-3d9f4fdf3c58}</Project>
+      <Name>Sitecore.Foundation.FedEx</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

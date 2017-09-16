@@ -1,0 +1,9 @@
+﻿@using Sitecore.Data.Fields
+@using Sitecore.Foundation.FedEx
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="row small-up-2 large-up-4">
+    @foreach (var productItem in Html.Sitecore().GetLinkedItems("SelectedProducts"))
+    {
+        @Html.Sitecore().ViewRendering("/Views/Store/ProductTeaser.cshtml", new { Datasource = productItem.ID, Parameters = "Expanded=1" })
+    }
+</div>

@@ -4,6 +4,7 @@ using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Mvc.Helpers;
 using System.Collections.Generic;
+using Sitecore.Data.Fields;
 
 namespace Sitecore.Foundation.FedEx
 {
@@ -43,6 +44,27 @@ namespace Sitecore.Foundation.FedEx
         public static string GetItemUrl(this SitecoreHelper sitecoreHelper, Item item)
         {
             return Links.LinkManager.GetItemUrl(item);
+        }
+
+        public static Item GetLinkedItem(this SitecoreHelper sitecoreHelper, Item item, string fieldName)
+        {
+            return null;
+        }
+
+        public static Item[] GetLinkedItems(this SitecoreHelper sitecoreHelper, string fieldName)
+        {
+            return GetLinkedItems(sitecoreHelper, sitecoreHelper.CurrentItem, fieldName);
+        }
+
+        public static Item[] GetLinkedItems(this SitecoreHelper sitecoreHelper, Item item, string fieldName)
+        {
+            var field = item.Fields[fieldName];
+            if (field == null)
+            {
+                return null;
+            }
+            var multilistField = new MultilistField(field);
+            return multilistField.GetItems();
         }
     }
 }
