@@ -1,0 +1,30 @@
+﻿@using Sitecore.Data.Fields
+@using Sitecore.Foundation.FedEx
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="medium-6 large-5 columns">
+    <h3>@Html.Sitecore().Field("Name")</h3>
+    <p>@Html.Sitecore().Field("Description")</p>
+    <label>
+        @Html.Sitecore().GetDictionaryText("Store/Size")
+        <select>
+            @foreach (var size in Html.Sitecore().GetLinkedItems("Sizes"))
+            {
+                <option value="@size.ID.ToString()">@Html.Sitecore().Field("Size", size, new {DisableWebEdit = true})</option>
+            }
+        </select>
+    </label>
+    <div class="row">
+        <div class="small-3 columns">
+            <label for="middle-label" class="middle">@Html.Sitecore().GetDictionaryText("Store/Quantity")</label>
+        </div>
+        <div class="small-9 columns">
+            <input type="text" id="middle-label" placeholder="One fish two fish">
+        </div>
+    </div>
+    <a href="#" class="button large expanded">@Html.Sitecore().GetDictionaryText("Store/BuyNow")</a>
+    <div class="small secondary expanded button-group">
+        <a class="button">Facebook</a>
+        <a class="button">Twitter</a>
+        <a class="button">Yo</a>
+    </div>
+</div>

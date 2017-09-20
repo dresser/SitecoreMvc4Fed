@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using Sitecore.Configuration;
 using Sitecore.Data;
 using Sitecore.Data.Items;
@@ -16,6 +17,12 @@ namespace Sitecore.Foundation.FedEx
         public static ID[] HomePageTemplateIds => ID.ParseArray(
             Settings.GetSetting("Sitecore.Foundation.FedEx.HomePageTemplates"));
 
+        public static ID[] SettingsTemplateIds => ID.ParseArray(
+            Settings.GetSetting("Sitecore.Foundation.FedEx.SettingsTemplates"));
+
+        public static ID DictionaryRootTemplateId => ID.Parse(
+            Settings.GetSetting("Sitecore.Foundation.FedEx.DictionaryRootTemplate"));
+
         public static Item GetSiteRootItem(this SitecoreHelper sitecoreHelper)
         {
             return sitecoreHelper.CurrentItem.Axes.GetAncestors()
@@ -26,6 +33,28 @@ namespace Sitecore.Foundation.FedEx
         {
             return sitecoreHelper.CurrentItem.GetAncestorsAndSelf()
                 .FirstOrDefault(a => HomePageTemplateIds.Any(a.IsDerived));
+        }
+
+        public static Item GetSettingsItem(this SitecoreHelper sitecoreHelper)
+        {
+            return GetSiteRootItem(sitecoreHelper)
+                .Children
+                .FirstOrDefault(c => SettingsTemplateIds.Any(c.IsDerived));
+        }
+
+        public static string GetDictionaryText(this SitecoreHelper sitecoreHelper, string dictionaryPath)
+        {
+            var settingsItem = GetSettingsItem(sitecoreHelper);
+            var dictionary = settingsItem?.Children.FirstOrDefault(c => c.IsDerived(DictionaryRootTemplateId));
+            var folderAndItem = dictionaryPath.Trim(new[] {'/'})
+                .Split(new[] {'/'}, StringSplitOptions.RemoveEmptyEntries);
+            if (folderAndItem.Length != 2)
+            {
+                return null;
+            }
+            var folder = dictionary?.Children[folderAndItem[0]];
+            var item = folder?.Children[folderAndItem[1]];
+            return item?["Phrase"];
         }
 
         public static Item[] GetBreadcrumbItems(this SitecoreHelper sitecoreHelper)
@@ -48,6 +77,11 @@ namespace Sitecore.Foundation.FedEx
 
         public static Item GetLinkedItem(this SitecoreHelper sitecoreHelper, Item item, string fieldName)
         {
+            ID id;
+            if (ID.TryParse(item[fieldName], out id))
+            {
+                return item.Database.GetItem(id);
+            }
             return null;
         }
 

@@ -125,6 +125,7 @@
     <Content Include="Views\Store\RelatedProductsTab.cshtml" />
     <Content Include="Views\Store\ProductCategoryList.cshtml" />
     <Content Include="Views\Store\NewestProducts - FedEx.cshtml" />
+    <Content Include="Views\Store\ProductDetail - FedEx.cshtml" />
     <None Include="web.config" />
     <None Include="Views\Web.config" />
     <None Include="web.Debug.config">
