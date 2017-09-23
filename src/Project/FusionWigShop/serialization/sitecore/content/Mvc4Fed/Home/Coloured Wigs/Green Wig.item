@@ -10,10 +10,17 @@ template: {74C38A17-A2D2-42DC-8973-B66B7C19B88B}
 templatekey: Product Page
 created: 20161205T215753Z
 
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 255
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{48CCA7BF-E61C-482A-A75B-9794969E9A6F}" p:after="*[1=2]" s:id="{5F8A18E5-9F58-4106-8A0E-96D5C2395C23}" s:ph="Row" /></d></r>
 ----version----
 language: en
 version: 1
-revision: 654d73d0-2e34-4c5c-9c5c-078e56412b5a
+revision: 39f20f9d-1660-48cb-b836-e121566b34e2
 
 ----field----
 field: {4A78335B-4C20-4034-BD28-CDAF7D5E179B}
@@ -56,14 +63,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-654d73d0-2e34-4c5c-9c5c-078e56412b5a
+39f20f9d-1660-48cb-b836-e121566b34e2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170910T132405Z
+20170920T220001Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

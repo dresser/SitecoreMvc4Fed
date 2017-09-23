@@ -128,7 +128,6 @@
   <ItemGroup>
     <Content Include="App_Config\Include\Project\Sitecore.FusionWigShop.Website.config" />
     <None Include="Properties\PublishProfiles\Local wwwroot.pubxml" />
-    <Content Include="Views\Website\Sublayouts\Header.cshtml" />
     <Content Include="Views\Website\Sublayouts\Footer.cshtml" />
     <None Include="web.config" />
     <None Include="Views\Web.config" />

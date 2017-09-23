@@ -117,6 +117,7 @@
     <Content Include="Views\Common\Sublayouts\RowContent.cshtml" />
     <Content Include="Views\Common\Sublayouts\Row Su1 Mu2 Lu3.cshtml" />
     <Content Include="Views\Common\Sublayouts\TabContainer.cshtml" />
+    <Content Include="Views\Common\Sublayouts\Header.cshtml" />
     <None Include="web.config" />
     <None Include="Views\Web.config" />
     <None Include="web.Debug.config">
