@@ -1,6 +1,7 @@
-﻿@model Sitecore.Mvc.Presentation.RenderingModel
+﻿@using Sitecore.Foundation.FedEx
+@model Sitecore.Mvc.Presentation.RenderingModel
 <div class="blog-post">
-    <h3>@Html.Sitecore().Field("SectionHeader") <small>@Html.Sitecore().Field("Date")</small></h3>
+    <h3>@Html.Sitecore().Field("SectionHeader") <small>@Html.Sitecore().FormattedDateTimeField("Date", "dd MMM yyyy")</small></h3>
     @Html.Sitecore().Field("Image")
     <p>@Html.Sitecore().Field("SectionContent")</p>
 </div>

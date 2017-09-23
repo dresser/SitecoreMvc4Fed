@@ -4,7 +4,7 @@ using Sitecore.Configuration;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Mvc.Helpers;
-using System.Collections.Generic;
+using System.Web;
 using Sitecore.Data.Fields;
 
 namespace Sitecore.Foundation.FedEx
@@ -99,6 +99,33 @@ namespace Sitecore.Foundation.FedEx
             }
             var multilistField = new MultilistField(field);
             return multilistField.GetItems();
+        }
+
+        public static DateTime DateTimeField(this SitecoreHelper sitecoreHelper, string fieldName)
+        {
+            return DateTimeField(sitecoreHelper, sitecoreHelper.CurrentItem, fieldName);
+        }
+
+        public static DateTime DateTimeField(this SitecoreHelper sitecoreHelper, Item item, string fieldName)
+        {
+            DateField dateField = item.Fields[fieldName];
+            return dateField?.DateTime ?? DateTime.MinValue;
+        }
+
+        public static HtmlString FormattedDateTimeField(this SitecoreHelper sitecoreHelper, string fieldName,
+            string format)
+        {
+            return FormattedDateTimeField(sitecoreHelper, sitecoreHelper.CurrentItem, fieldName, format);
+        }
+
+        public static HtmlString FormattedDateTimeField(this SitecoreHelper sitecoreHelper, Item item, string fieldName,
+            string format)
+        {
+            if (Sitecore.Context.PageMode.IsExperienceEditor)
+            {
+                return sitecoreHelper.Field(fieldName, item);
+            }
+            return new HtmlString(DateTimeField(sitecoreHelper, item, fieldName).ToString(format));
         }
     }
 }
