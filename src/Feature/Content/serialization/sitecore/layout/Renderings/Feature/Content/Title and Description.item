@@ -1,0 +1,73 @@
+----item----
+version: 1
+id: {23A13AB1-18DA-486D-82C2-A8626D76CC31}
+database: master
+path: /sitecore/layout/Renderings/Feature/Content/Title and Description
+parent: {2305BCD5-56B8-4434-B7EC-C66BE9E48A9A}
+name: Title and Description
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+created: 20170923T232250Z
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 41
+
+/Views/Content/TitleAndDescription.cshtml
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{2ED2BE79-6A44-4BBC-A782-5F40185B44F5}
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 56
+
+/sitecore/templates/Feature/Content/_TitleAndDescription
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 62
+
+http://mvc4fed.local/temp/iconcache/office/32x32/newspaper.png
+----version----
+language: en
+version: 1
+revision: cb18405b-34cd-4237-b111-014f96715fc9
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170923T232250Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cb18405b-34cd-4237-b111-014f96715fc9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170923T233559Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

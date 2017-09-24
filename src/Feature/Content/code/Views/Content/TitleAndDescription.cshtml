@@ -1,0 +1,5 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+@{ var tag = Model.Rendering.Parameters["TitleTag"] ?? "h2";}
+<@tag>@Html.Sitecore().Field("Title")<@("/" + tag)>
+<p>@Html.Sitecore().Field("Description")</p>

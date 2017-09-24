@@ -124,6 +124,7 @@
     <Content Include="Views\Content\PageHeader.cshtml" />
     <Content Include="Views\Content\SectionContent.cshtml" />
     <Content Include="Views\Content\SidebarWidget.cshtml" />
+    <Content Include="Views\Content\TitleAndDescription.cshtml" />
     <None Include="web.config" />
     <None Include="Views\Web.config" />
   </ItemGroup>
