@@ -6,6 +6,8 @@ using Sitecore.Data.Items;
 using Sitecore.Mvc.Helpers;
 using System.Web;
 using Sitecore.Data.Fields;
+using Sitecore.Foundation.FedEx.DynamicPlaceholders;
+using Sitecore.Mvc.Presentation;
 
 namespace Sitecore.Foundation.FedEx
 {
@@ -188,6 +190,17 @@ namespace Sitecore.Foundation.FedEx
         public static string Parameter(this SitecoreHelper sitecoreHelper, string parameterName)
         {
             return sitecoreHelper?.CurrentRendering?.Parameters[parameterName];
+        }
+
+        public static HtmlString DynamicPlaceholder(this SitecoreHelper sitecoreHelper, string placeholderName)
+        {
+            var placeholder = PlaceholdersContext.Add(placeholderName, RenderingContext.Current.Rendering.UniqueId);
+            return sitecoreHelper.Placeholder(placeholder);
+        }
+
+        public static HtmlString DynamicPlaceholder(this SitecoreHelper sitecoreHelper, string placeholderName, bool useStaticPlaceholderNames)
+        {
+            return useStaticPlaceholderNames ? sitecoreHelper.Placeholder(placeholderName) : DynamicPlaceholder(sitecoreHelper, placeholderName);
         }
     }
 }

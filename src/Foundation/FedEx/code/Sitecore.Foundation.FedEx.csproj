@@ -109,6 +109,12 @@
     <Content Include="Todo.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DynamicPlaceholders\Events\DynamicPlaceholder.cs" />
+    <Compile Include="DynamicPlaceholders\Pipelines\ExecutePageEditorAction\DynamicReplaceRendering.cs" />
+    <Compile Include="DynamicPlaceholders\Pipelines\GetChromeData\GetDynamicPlaceholderChromeData.cs" />
+    <Compile Include="DynamicPlaceholders\Pipelines\GetPlaceholderRenderings\GetDynamicKeyAllowedRenderings.cs" />
+    <Compile Include="DynamicPlaceholders\PlaceholderKeyRegex.cs" />
+    <Compile Include="DynamicPlaceholders\PlaceholdersContext.cs" />
     <Compile Include="ItemExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SitecoreHelperExtensions.cs" />
