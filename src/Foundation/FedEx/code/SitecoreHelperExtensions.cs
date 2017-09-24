@@ -75,6 +75,63 @@ namespace Sitecore.Foundation.FedEx
             return Links.LinkManager.GetItemUrl(item);
         }
 
+        public static string GetLinkFieldUrl(this SitecoreHelper sitecoreHelper, string fieldName)
+        {
+            return GetLinkFieldUrl(sitecoreHelper, sitecoreHelper.CurrentItem, fieldName);
+        }
+
+        public static string GetLinkFieldUrl(this SitecoreHelper sitecoreHelper, Item item, string fieldName)
+        {
+            if (item == null)
+            {
+                throw new ArgumentNullException(nameof(item));
+            }
+            if (string.IsNullOrEmpty(fieldName))
+            {
+                throw new ArgumentNullException(nameof(fieldName));
+            }
+            var fieldalue = item[fieldName];
+            if (ID.IsID(item[fieldName]))
+            {
+                var linkItem = item.Database.GetItem(ID.Parse(fieldalue));
+                return linkItem != null ? Sitecore.Links.LinkManager.GetItemUrl(linkItem) : string.Empty;
+            }
+            var field = item.Fields[fieldName];
+            if (field == null || !(FieldTypeManager.GetField(field) is LinkField))
+            {
+                return string.Empty;
+            }
+            else
+            {
+                LinkField linkField = (LinkField)field;
+                switch (linkField.LinkType.ToLower())
+                {
+                    case "internal":
+                        // Use LinkMananger for internal links, if link is not empty
+                        return linkField.TargetItem != null ? Sitecore.Links.LinkManager.GetItemUrl(linkField.TargetItem) : string.Empty;
+                    case "media":
+                        // Use MediaManager for media links, if link is not empty
+                        return linkField.TargetItem != null ? Sitecore.Resources.Media.MediaManager.GetMediaUrl(linkField.TargetItem) : string.Empty;
+                    case "external":
+                        // Just return external links
+                        return linkField.Url;
+                    case "anchor":
+                        // Prefix anchor link with # if link if not empty
+                        return !string.IsNullOrEmpty(linkField.Anchor) ? "#" + linkField.Anchor : string.Empty;
+                    case "mailto":
+                        // Just return mailto link
+                        return linkField.Url;
+                    case "javascript":
+                        // Just return javascript
+                        return linkField.Url;
+                    default:
+                        // Just please the compiler, this
+                        // condition will never be met
+                        return linkField.Url;
+                }
+            }
+        }
+
         public static Item GetLinkedItem(this SitecoreHelper sitecoreHelper, Item item, string fieldName)
         {
             ID id;
