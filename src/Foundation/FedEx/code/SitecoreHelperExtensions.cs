@@ -184,5 +184,10 @@ namespace Sitecore.Foundation.FedEx
             }
             return new HtmlString(DateTimeField(sitecoreHelper, item, fieldName).ToString(format));
         }
+
+        public static string Parameter(this SitecoreHelper sitecoreHelper, string parameterName)
+        {
+            return sitecoreHelper?.CurrentRendering?.Parameters[parameterName];
+        }
     }
 }
